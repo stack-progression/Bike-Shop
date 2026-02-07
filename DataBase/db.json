@@ -28205,7 +28205,6 @@
         }
     ], 
     "variants": [
-        [
     {
         "id": 1,
         "colorKey": "raspberry_black",
@@ -29711,7 +29710,6 @@
         "hex": ["#C0C0C0"],
         "stock": 15
     }
-]
     ],
     "reviews": [
   {

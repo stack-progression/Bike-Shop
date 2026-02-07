@@ -1,9 +1,12 @@
 const jsonServer = require('json-server');
+const path = require('path');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // se uită la db.json din acest folder
+const router = jsonServer.router(path.join(__dirname, 'db.json')); // Cale absolută
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 server.use(middlewares);
 server.use(router);
-server.listen(port);
+server.listen(port, () => {
+  console.log('JSON Server is running on port ' + port);
+});
