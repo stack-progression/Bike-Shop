@@ -1,12 +1,65 @@
-import './App.css'
-
+import { ShopContext } from "./Context/ShopContext";
+import { useCategories } from "./Hooks/useCategories";
+import { useProducts } from "./Hooks/useProducts";
+import { useReviews } from "./Hooks/useReviews";
+import { useVariants } from "./Hooks/useVariants";
+// import { useQuery } from "@tanstack/react-query";
 function App() {
+  // const { isPending, error, data } = useQuery({
+  //   queryKey: ['products'],
+  //   queryFn: () =>
+  //     fetch('https://bike-shop-xe1j.onrender.com/categories').then((res) =>
+  //       res.json(),
+  //     ),
+  // })
+
+  // if (isPending) return 'Loading...'
+
+  // if (error) return 'An error has occurred: ' + error.message
+
+  const { data: products, isPending: productsLoading } = useProducts();
+  const {data: categories, isPending: categoriesLoading } = useCategories();
+  const {data: variants, isPending: variantsLoading} = useVariants();
+  const {data: reviews, isPending: reviewsLoading} = useReviews();
+
+  if (productsLoading || categoriesLoading || variantsLoading || reviewsLoading) return "Loading...";
+
 
   return (
-    <>
-          <img src="https://bike-images.andrew-code.com/Bike%20Image/Electric%20Bikes/turbo-vado-sl-40-step-through-eq/photos2/p1.webp" className="logo react" alt="React logo" />
-    </>
-  )
+    <div>
+      {products?.map((item) => {
+        return (
+          <div key={item.id}>
+            <h1 key={item.id}>
+            {item.name}
+          </h1>
+          </div>
+          
+        );
+      })}
+      {categories?.map((item) => {
+        return (
+          <h1 key={item.id}>
+            {item.name} - {item.slug}
+          </h1>
+        );
+      })}
+      {variants?.map((item) => {
+        return (
+          <h1 key={item.id}>
+            {item.colorKey} - {item.label}
+          </h1>
+        );
+      })}
+      {reviews?.map((item) => {
+        return (
+          <h1 key={item.id}>
+            {item.userName} - {item.rating}
+          </h1>
+        );
+      })}
+    </div>
+  );
 }
 
-export default App
+export default App;
