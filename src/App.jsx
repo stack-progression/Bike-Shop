@@ -18,24 +18,35 @@ function App() {
   // if (error) return 'An error has occurred: ' + error.message
 
   const { data: products, isPending: productsLoading } = useProducts();
-  const {data: categories, isPending: categoriesLoading } = useCategories();
-  const {data: variants, isPending: variantsLoading} = useVariants();
-  const {data: reviews, isPending: reviewsLoading} = useReviews();
+  const { data: categories, isPending: categoriesLoading } = useCategories();
+  const { data: variants, isPending: variantsLoading } = useVariants();
+  const { data: reviews, isPending: reviewsLoading } = useReviews();
 
-  if (productsLoading || categoriesLoading || variantsLoading || reviewsLoading) return "Loading...";
-
+  if (productsLoading || categoriesLoading || variantsLoading || reviewsLoading)
+    return "Loading...";
 
   return (
     <div>
       {products?.map((item) => {
         return (
           <div key={item.id}>
-            <h1 key={item.id}>
-            {item.name}
-          </h1>
+            <h1>{item.name}</h1>
+            {
+              item?.variants?.map((variant, i) => {
+                return(
+                  <div key={i}>
+                    <h2>{variant.label}</h2>
+                    {variant.images.map((img, idx) => {
+                      return(
+                        img && <img style={{width: "100px"}} key={idx} src={img}/>
+                      )
+                    })}
+                  </div>
+                )
+              })
+            }
           </div>
-          
-        );
+        )
       })}
       {categories?.map((item) => {
         return (
