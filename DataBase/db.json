@@ -5213,12 +5213,20 @@
                     ]
                 }
             ],
-            "images": {
-                "black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Electric%20Bikes/giant-stance-e--2-29-deore-2024-mtb-electric-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Electric%20Bikes/giant-stance-e--2-29-deore-2024-mtb-electric-bike/photos1/p2.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "black",
+                    "label": "black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 22,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Electric%20Bikes/giant-stance-e--2-29-deore-2024-mtb-electric-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Electric%20Bikes/giant-stance-e--2-29-deore-2024-mtb-electric-bike/photos1/p2.webp"
+                    ]
+                }
+            ],
             "price": 11250,
             "currency": "RON",
             "rating": 0,
