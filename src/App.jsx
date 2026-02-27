@@ -36,6 +36,10 @@ function App() {
                 return(
                   <div key={i}>
                     <h2>{variant.label}</h2>
+                    <div style={{background: `${variant.hex[0]}`, width: "100px", height: "100px"}}></div>
+                    <div style={{background: `${variant.hex[1]}`, width: "100px", height: "100px"}}></div>
+                    <div style={{background: `${variant.hex[2]}`, width: "100px", height: "100px"}}></div>
+                    <div style={{background: `${variant.hex[3]}`, width: "100px", height: "100px"}}></div>
                     {variant.images.map((img, idx) => {
                       return(
                         img && <img style={{width: "100px"}} key={idx} src={img}/>

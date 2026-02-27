@@ -16101,11 +16101,19 @@
                     ]
                 }
             ],
-            "images": {
-                "red": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-reacto-7000-rival-etap-axs-2025-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "red",
+                    "label": "red",
+                    "hex": [
+                        "#FF0000"
+                    ],
+                    "stock": 23,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-reacto-7000-rival-etap-axs-2025-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 3395.99,
             "currency": "USD",
             "rating": 0,
@@ -16221,11 +16229,19 @@
                     ]
                 }
             ],
-            "images": {
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-comp-105-di2-2025-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-comp-105-di2-2025-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 2800,
             "currency": "USD",
             "rating": 0,
@@ -16328,14 +16344,30 @@
                     ]
                 }
             ],
-            "images": {
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-di2-r818-2024-road-bike/photos1/p1.webp"
-                ],
-                "grey": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-di2-r818-2024-road-bike/photos2/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-di2-r818-2024-road-bike/photos1/p1.webp"
+                    ]
+                },
+                {
+                    "colorKey": "grey",
+                    "label": "grey",
+                    "hex": [
+                        "#808080"
+                    ],
+                    "stock": 19,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-di2-r818-2024-road-bike/photos2/p1.webp"
+                    ]
+                }
+            ],
             "price": 3196.99,
             "currency": "USD",
             "rating": 0,
@@ -16438,22 +16470,38 @@
                     ]
                 }
             ],
-            "images": {
-                "black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p5.webp"
-                ],
-                "red": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p5.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "black",
+                    "label": "black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 22,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos1/p5.webp"
+                    ]
+                },
+                {
+                    "colorKey": "red",
+                    "label": "red",
+                    "hex": [
+                        "#FF0000"
+                    ],
+                    "stock": 23,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-8000-ultegra-di2-2024-road-bike/photos2/p5.webp"
+                    ]
+                }
+            ],
             "price": 18500,
             "currency": "RON",
             "rating": 0,
@@ -16549,11 +16597,19 @@
                     ]
                 }
             ],
-            "images": {
-                "blue_metallic": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-ultegra-di2-2025-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue_metallic",
+                    "label": "Blue Metallic",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 4,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-ultegra-di2-2025-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 22000,
             "currency": "USD",
             "rating": 0,
@@ -16656,17 +16712,41 @@
                     ]
                 }
             ],
-            "images": {
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-2024-road-bike/photos1/p1.webp"
-                ],
-                "grey": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-2024-road-bike/photos2/p1.webp"
-                ],
-                "silver": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-2024-road-bike/photos3/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-2024-road-bike/photos1/p1.webp"
+                    ]
+                },
+                {
+                    "colorKey": "grey",
+                    "label": "grey",
+                    "hex": [
+                        "#808080"
+                    ],
+                    "stock": 19,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-2024-road-bike/photos2/p1.webp"
+                    ]
+                },
+                {
+                    "colorKey": "silver",
+                    "label": "silver",
+                    "hex": [
+                        "#C0C0C0"
+                    ],
+                    "stock": 10,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-race-105-2024-road-bike/photos3/p1.webp"
+                    ]
+                }
+            ],
             "price": 2990,
             "currency": "€",
             "rating": 0,
@@ -16769,14 +16849,30 @@
                     ]
                 }
             ],
-            "images": {
-                "silk_black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-reacto-5000-105-di2-2026-road-bike/photos1/p1.webp"
-                ],
-                "pearl_white": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-reacto-5000-105-di2-2026-road-bike/photos2/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "silk_black",
+                    "label": "Silk Black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 16,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-reacto-5000-105-di2-2026-road-bike/photos1/p1.webp"
+                    ]
+                },
+                {
+                    "colorKey": "pearl_white",
+                    "label": "Pearl White",
+                    "hex": [
+                        "#FFFFFF"
+                    ],
+                    "stock": 12,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-reacto-5000-105-di2-2026-road-bike/photos2/p1.webp"
+                    ]
+                }
+            ],
             "price": 13400,
             "currency": "€",
             "rating": 0,
@@ -16880,14 +16976,30 @@
                     ]
                 }
             ],
-            "images": {
-                "white": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-5000-105-di2-2026-road-bike/photos1/p1.webp"
-                ],
-                "black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-5000-105-di2-2026-road-bike/photos2/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "white",
+                    "label": "white",
+                    "hex": [
+                        "#FFFFFF"
+                    ],
+                    "stock": 15,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-5000-105-di2-2026-road-bike/photos1/p1.webp"
+                    ]
+                },
+                {
+                    "colorKey": "black",
+                    "label": "black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 22,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-5000-105-di2-2026-road-bike/photos2/p1.webp"
+                    ]
+                }
+            ],
             "price": 12700,
             "currency": "€",
             "rating": 0,
@@ -16995,12 +17107,20 @@
                     ]
                 }
             ],
-            "images": {
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-2-105-2026-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-2-105-2026-road-bike/photos1/p2.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-2-105-2026-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-2-105-2026-road-bike/photos1/p2.webp"
+                    ]
+                }
+            ],
             "price": 2435.99,
             "currency": "€",
             "rating": 0,
@@ -17104,11 +17224,19 @@
                     ]
                 }
             ],
-            "images": {
-                "green": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-endurance-6000-105-di2-2025-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "green",
+                    "label": "green",
+                    "hex": [
+                        "#008000"
+                    ],
+                    "stock": 8,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/merida-bikes-scultura-endurance-6000-105-di2-2025-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 2560.99,
             "currency": "$",
             "rating": 4.5,
@@ -17216,16 +17344,24 @@
                     ]
                 }
             ],
-            "images": {
-                "grey": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p5.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p6.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "grey",
+                    "label": "grey",
+                    "hex": [
+                        "#808080"
+                    ],
+                    "stock": 19,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p5.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-0-105-di2-2026-road-bike/photos1/p6.webp"
+                    ]
+                }
+            ],
             "price": 3726.99,
             "currency": "€",
             "rating": 0,
@@ -17333,14 +17469,30 @@
                     ]
                 }
             ],
-            "images": {
-                "black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/cervelo-p-series-105-2025-road-bike/photos1/p1.webp"
-                ],
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/cervelo-p-series-105-2025-road-bike/photos2/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "black",
+                    "label": "black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 22,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/cervelo-p-series-105-2025-road-bike/photos1/p1.webp"
+                    ]
+                },
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/cervelo-p-series-105-2025-road-bike/photos2/p1.webp"
+                    ]
+                }
+            ],
             "price": 22700,
             "currency": "RON",
             "rating": 0,
@@ -17456,19 +17608,27 @@
                     ]
                 }
             ],
-            "images": {
-                "white": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p5.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p6.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p7.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p8.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p9.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "white",
+                    "label": "white",
+                    "hex": [
+                        "#FFFFFF"
+                    ],
+                    "stock": 15,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p5.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p6.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p7.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p8.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-propel-advanced-1-105-di2-2026-road-bike/photos1/p9.webp"
+                    ]
+                }
+            ],
             "price": 18400,
             "currency": "RON",
             "rating": 5,
@@ -17571,11 +17731,20 @@
                     ]
                 }
             ],
-            "images": {
-                "navy_white": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-comp-ultegra-di2-12s-2025-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "navy_white",
+                    "label": "Navy White",
+                    "hex": [
+                        "#000080",
+                        "#FFFFFF"
+                    ],
+                    "stock": 9,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-comp-ultegra-di2-12s-2025-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 24000,
             "currency": "RON",
             "rating": 0,
@@ -17679,23 +17848,40 @@
                     ]
                 }
             ],
-            "images": {
-                "white_black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p5.webp"
-                ],
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p5.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p6.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "white_black",
+                    "label": "White Black",
+                    "hex": [
+                        "#FFFFFF",
+                        "#000000"
+                    ],
+                    "stock": 15,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos1/p5.webp"
+                    ]
+                },
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p5.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/scott-addict-rc-pro-dura-ace-di2-r9250-2026-road-bike/photos2/p6.webp"
+                    ]
+                }
+            ],
             "price": 8366.99,
             "currency": "$",
             "rating": 0,
@@ -17799,18 +17985,26 @@
                     ]
                 }
             ],
-            "images": {
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p4.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p5.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p6.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p7.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p8.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p4.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p5.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p6.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p7.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-pro-force-axs-e1-p-2025-road-bike/photos1/p8.webp"
+                    ]
+                }
+            ],
             "price": 7590.99,
             "currency": "€",
             "rating": 0,
@@ -17909,11 +18103,20 @@
                     ]
                 }
             ],
-            "images": {
-                "blue_grey": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-rc-dura-ace-di2-2024-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue_grey",
+                    "label": "Blue Grey",
+                    "hex": [
+                        "#0000FF",
+                        "#808080"
+                    ],
+                    "stock": 3,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/bianchi-oltre-rc-dura-ace-di2-2024-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 63750,
             "currency": "RON",
             "rating": 0,
@@ -18021,11 +18224,19 @@
                     ]
                 }
             ],
-            "images": {
-                "black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/cervelo-p5-red-axs-2025-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "black",
+                    "label": "black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 22,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/cervelo-p5-red-axs-2025-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 14467.99,
             "currency": "$",
             "rating": 5,
@@ -18128,14 +18339,22 @@
                     ]
                 }
             ],
-            "images": {
-                "blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p4.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "blue",
+                    "label": "blue",
+                    "hex": [
+                        "#0000FF"
+                    ],
+                    "stock": 14,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p1.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p2.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p3.webp",
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/giant-defy-advanced-pro-ultegra-di2-2026-road-bike/photos1/p4.webp"
+                    ]
+                }
+            ],
             "price": 6449.99,
             "currency": "$",
             "rating": 0,
@@ -18235,11 +18454,19 @@
                     ]
                 }
             ],
-            "images": {
-                "black": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/orbea-orca-aero-m20iltd-ultegra-di2-r8150-2026-road-bike/photos1/p1.webp"
-                ]
-            },
+            "variants": [
+                {
+                    "colorKey": "black",
+                    "label": "black",
+                    "hex": [
+                        "#000000"
+                    ],
+                    "stock": 22,
+                    "images": [
+                        "https://bike-images.andrew-code.com/Bike%20Image/Road%20Bikes/orbea-orca-aero-m20iltd-ultegra-di2-r8150-2026-road-bike/photos1/p1.webp"
+                    ]
+                }
+            ],
             "price": 6144.99,
             "currency": "$",
             "rating": 0,
