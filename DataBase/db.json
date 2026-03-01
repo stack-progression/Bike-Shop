@@ -206,8 +206,8 @@
                     "colorKey": "raspberry_black",
                     "label": "Raspberry Black",
                     "hex": [
-                        "#E30B5C",
-                        "#000000"
+                        "#4d1821",
+                        "#131213"
                     ],
                     "stock": 14,
                     "images": [
@@ -224,9 +224,8 @@
                     "colorKey": "sage_white_black",
                     "label": "Sage White Black",
                     "hex": [
-                        "#C4D6C1",
-                        "#FFFFFF",
-                        "#000000"
+                        "#8fa8a0",
+                        "#322f33"
                     ],
                     "stock": 3,
                     "images": [
@@ -474,8 +473,8 @@
                     "colorKey": "white_mountains_black_reflective",
                     "label": "White Mountains Black Reflective",
                     "hex": [
-                        "#FFFFFF",
-                        "#000000"
+                        "#E8DDC5",
+                        "#C0C0C0"
                     ],
                     "stock": 8,
                     "images": [
@@ -492,7 +491,7 @@
                     "colorKey": "red_tint_silver_reflective",
                     "label": "Red Tint Silver Reflective",
                     "hex": [
-                        "#FF0000",
+                        "#D11717",
                         "#C0C0C0"
                     ],
                     "stock": 21,
@@ -719,7 +718,7 @@
                     "colorKey": "red_tint_silver_reflective",
                     "label": "Red Tint Silver Reflective",
                     "hex": [
-                        "#FF0000",
+                        "#E60000",
                         "#C0C0C0"
                     ],
                     "stock": 21,
@@ -738,7 +737,7 @@
                     "colorKey": "White_Mountains_Black_Reflective",
                     "label": "White Mountains Black Reflective",
                     "hex": [
-                        "#FFFFFF",
+                        "#E8DDC5",
                         "#000000"
                     ],
                     "stock": 3,
@@ -985,7 +984,7 @@
                     "colorKey": "red_tint_silver_reflective",
                     "label": "Red Tint Silver Reflective",
                     "hex": [
-                        "#FF0000",
+                        "#E00000",
                         "#C0C0C0"
                     ],
                     "stock": 21,
@@ -1004,7 +1003,7 @@
                     "colorKey": "White_Mountains_Black_Reflective",
                     "label": "White Mountains Black Reflective",
                     "hex": [
-                        "#FFFFFF",
+                        "#E8DDC5",
                         "#000000"
                     ],
                     "stock": 3,
@@ -1208,7 +1207,7 @@
                     "colorKey": "white_mountains_gunmetal",
                     "label": "White Mountains Gunmetal",
                     "hex": [
-                        "#FFFFFF",
+                        "#E8DDC5",
                         "#2A2D2F"
                     ],
                     "stock": 5,
@@ -1459,8 +1458,8 @@
                     "colorKey": "satin_wsatin_white_sage_deep_lakehite_sage_deep_lake",
                     "label": "Satin Wsatin White Sage Deep Lakehite Sage Deep Lake",
                     "hex": [
-                        "#FFFFFF",
-                        "#BCB88A"
+                        "#D5E8E8",
+                        "#000000"
                     ],
                     "stock": 7,
                     "images": [
@@ -1693,7 +1692,7 @@
                     "colorKey": "red_tint_silver_reflective",
                     "label": "Red Tint Silver Reflective",
                     "hex": [
-                        "#FF0000",
+                        "#C90E0E",
                         "#C0C0C0"
                     ],
                     "stock": 21,
@@ -1711,7 +1710,7 @@
                     "colorKey": "White_Mountains_Black_Reflective",
                     "label": "White Mountains Black Reflective",
                     "hex": [
-                        "#FFFFFF",
+                        "#E8DDC5",
                         "#000000"
                     ],
                     "stock": 3,
@@ -1960,8 +1959,8 @@
                     "colorKey": "silver_dust_smoke",
                     "label": "Silver Dust Smoke",
                     "hex": [
-                        "#BFC1C2",
-                        "#738276"
+                        "#474747",
+                        "#707070"
                     ],
                     "stock": 16,
                     "images": [
@@ -1978,8 +1977,8 @@
                     "colorKey": "gunmetal_white_mountains",
                     "label": "Gunmetal White Mountains",
                     "hex": [
-                        "#2A2D2F",
-                        "#FFFFFF"
+                        "#E64602",
+                        "#404040"
                     ],
                     "stock": 4,
                     "images": [
@@ -2160,8 +2159,8 @@
                     "colorKey": "gloss_black_liquid_metal_satin_black_chrome_foil",
                     "label": "Gloss Black Liquid Metal Satin Black Chrome Foil",
                     "hex": [
-                        "#000000",
-                        "#A8A9AD"
+                        "#2E2E2E",
+                        "#5C5C5C"
                     ],
                     "stock": 9,
                     "images": [
@@ -2628,8 +2627,7 @@
                     "label": "Gloss Blaze Blck Silverdust",
                     "hex": [
                         "#FF6600",
-                        "#000000",
-                        "#BFC1C2"
+                        "#000000"
                     ],
                     "stock": 23,
                     "images": [
@@ -2649,8 +2647,8 @@
                     "colorKey": "saint_mystic_blue_mystic_blue_metallic_silver_dust",
                     "label": "Saint Mystic Blue Mystic Blue Metallic Silver Dust",
                     "hex": [
-                        "#003366",
-                        "#BFC1C2"
+                        "#589FC7",
+                        "#292929"
                     ],
                     "stock": 1,
                     "images": [
@@ -2670,9 +2668,8 @@
                     "colorKey": "satin_doppio_sand_silver_dust",
                     "label": "Satin Doppio Sand Silver Dust",
                     "hex": [
-                        "#4B3621",
-                        "#C2B280",
-                        "#BFC1C2"
+                        "#595353",
+                        "#C2B280"
                     ],
                     "stock": 18,
                     "images": [
@@ -2899,8 +2896,7 @@
                     "label": "Black Dove Grey Black",
                     "hex": [
                         "#000000",
-                        "#6D6C67",
-                        "#000000"
+                        "#FFFFFF"
                     ],
                     "stock": 6,
                     "images": [
@@ -2919,9 +2915,8 @@
                     "colorKey": "sage_green_cool_grey_black",
                     "label": "Sage Green Cool Grey Black",
                     "hex": [
-                        "#8A9A5B",
-                        "#8C92AC",
-                        "#000000"
+                        "#A6ADA3",
+                        "#A1A1A1"
                     ],
                     "stock": 15,
                     "images": [
@@ -2940,8 +2935,7 @@
                     "colorKey": "gloss_fjord_metallic_dolomite_metallic",
                     "label": "Gloss Fjord Metallic Dolomite Metallic",
                     "hex": [
-                        "#617178",
-                        "#828282"
+                        "#696969"
                     ],
                     "stock": 4,
                     "images": [
@@ -3170,7 +3164,7 @@
                     "label": "Oak Green Metallic Smoke",
                     "hex": [
                         "#414833",
-                        "#738276"
+                        "#6E6E6E"
                     ],
                     "stock": 12,
                     "images": [
@@ -3186,7 +3180,7 @@
                     "colorKey": "Satin_White_Mountains_Gunmetal_Chrome",
                     "label": "Satin White Mountains Gunmetal Chrome",
                     "hex": [
-                        "#FFFFFF",
+                        "#F0F0DF",
                         "#2A2D2F"
                     ],
                     "stock": 10,
@@ -3625,9 +3619,7 @@
                     "colorKey": "satin_copper_red_doppio",
                     "label": "Satin Copper Red Doppio",
                     "hex": [
-                        "#B87333",
-                        "#FF0000",
-                        "#4B3621"
+                        "#FF0000"
                     ],
                     "stock": 18,
                     "images": [
@@ -3646,7 +3638,7 @@
                     "colorKey": "satin_champagne",
                     "label": "Satin Champagne",
                     "hex": [
-                        "#F7E7CE"
+                        "#DBC5C5"
                     ],
                     "stock": 17,
                     "images": [
@@ -4131,7 +4123,7 @@
                     "colorKey": "satin_mystic_blue_mystic_blue_metallic",
                     "label": "Satin Mystic Blue Mystic Blue Metallic",
                     "hex": [
-                        "#003366"
+                        "#C7D5D9"
                     ],
                     "stock": 9,
                     "images": [
@@ -4334,9 +4326,7 @@
                     "colorKey": "carbon_obsidian_bronze",
                     "label": "Carbon Obsidian Bronze",
                     "hex": [
-                        "#333333",
-                        "#445A60",
-                        "#CD7F32"
+                        "#333333"
                     ],
                     "stock": 12,
                     "images": [
@@ -4355,9 +4345,7 @@
                     "colorKey": "satin_champagne_cool_grey_metallic_obsidian",
                     "label": "Satin Champagne Cool Grey Metallic Obsidian",
                     "hex": [
-                        "#F7E7CE",
-                        "#8C92AC",
-                        "#445A60"
+                        "#D9C9C7"
                     ],
                     "stock": 6,
                     "images": [
@@ -4587,9 +4575,7 @@
                     "colorKey": "gloss_blaze_blck_silverdust",
                     "label": "Gloss Blaze Blck Silverdust",
                     "hex": [
-                        "#FF6600",
-                        "#000000",
-                        "#BFC1C2"
+                        "#000000"
                     ],
                     "stock": 23,
                     "images": [
@@ -5074,7 +5060,7 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#6A767A"
                     ],
                     "stock": 14,
                     "images": [
@@ -5356,7 +5342,8 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#9BD1D1",
+                        "#383838"
                     ],
                     "stock": 14,
                     "images": [
@@ -5494,7 +5481,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#D4D4D4"
                     ],
                     "stock": 19,
                     "images": [
@@ -5862,7 +5849,7 @@
                     "colorKey": "orange",
                     "label": "orange",
                     "hex": [
-                        "#FFA500"
+                        "#E86100"
                     ],
                     "stock": 7,
                     "images": [
@@ -5982,7 +5969,8 @@
                     "colorKey": "orange",
                     "label": "orange",
                     "hex": [
-                        "#FFA500"
+                        "#FFA500",
+                        "#E86100"
                     ],
                     "stock": 7,
                     "images": [
@@ -6083,7 +6071,7 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#BFD6D6"
                     ],
                     "stock": 14,
                     "images": [
@@ -6195,7 +6183,7 @@
                     "colorKey": "black",
                     "label": "black",
                     "hex": [
-                        "#000000"
+                        "#4D4D4D"
                     ],
                     "stock": 22,
                     "images": [
@@ -6382,7 +6370,7 @@
                     "colorKey": "white",
                     "label": "white",
                     "hex": [
-                        "#FFFFFF"
+                        "#E8DDC5"
                     ],
                     "stock": 15,
                     "images": [
@@ -6641,7 +6629,8 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#172E5E",
+                        "#C8DEDD"
                     ],
                     "stock": 14,
                     "images": [
@@ -6741,7 +6730,7 @@
                     "colorKey": "black",
                     "label": "black",
                     "hex": [
-                        "#000000"
+                        "#B0B0B0"
                     ],
                     "stock": 22,
                     "images": [
@@ -6753,7 +6742,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#575757"
                     ],
                     "stock": 19,
                     "images": [
@@ -6858,7 +6847,7 @@
                     "colorKey": "Silver",
                     "label": "Silver",
                     "hex": [
-                        "#C0C0C0"
+                        "#000000"
                     ],
                     "stock": 15,
                     "images": [
@@ -6959,7 +6948,7 @@
                     "colorKey": "gray",
                     "label": "gray",
                     "hex": [
-                        "#808080"
+                        "#CFCFCF"
                     ],
                     "stock": 22,
                     "images": [
@@ -7058,7 +7047,8 @@
                     "colorKey": "Silver",
                     "label": "Silver",
                     "hex": [
-                        "#C0C0C0"
+                        "#C0C0C0",
+                        "#000000"
                     ],
                     "stock": 15,
                     "images": [
@@ -7159,7 +7149,7 @@
                     "colorKey": "yellow",
                     "label": "yellow",
                     "hex": [
-                        "#FFFF00"
+                        "#E69A00"
                     ],
                     "stock": 3,
                     "images": [
@@ -7172,7 +7162,7 @@
                     "colorKey": "green",
                     "label": "green",
                     "hex": [
-                        "#008000"
+                        "#667066"
                     ],
                     "stock": 8,
                     "images": [
@@ -7183,7 +7173,8 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#BCCCCC",
+                        "#3B4E68"
                     ],
                     "stock": 14,
                     "images": [
@@ -7323,8 +7314,7 @@
                     "colorKey": "satin_silver_dust_black_holographic_foil",
                     "label": "Satin Silver Dust Black Holographic Foil",
                     "hex": [
-                        "#BFC1C2",
-                        "#000000"
+                        "#BFC1C2"
                     ],
                     "stock": 11,
                     "images": [
@@ -7504,20 +7494,6 @@
                     ]
                 }
             ],
-            "images": {
-                "satin_smoke_arctic_blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos1/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos1/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos1/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos1/p4.webp"
-                ],
-                "saint_smoke_arctic_blue": [
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos2/p1.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos2/p2.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos2/p3.webp",
-                    "https://bike-images.andrew-code.com/Bike%20Image/Mountain%20Bikes/status-160/photos2/p4.webp"
-                ]
-            },
             "price": 17999,
             "currency": "RON",
             "rating": 4.8,
@@ -7651,7 +7627,8 @@
                     "colorKey": "satin_smoke",
                     "label": "Satin Smoke",
                     "hex": [
-                        "#738276"
+                        "#ffffff",
+                        "#000000"
                     ],
                     "stock": 16,
                     "images": [
@@ -7668,7 +7645,7 @@
                     "colorKey": "midnight_shadow_metallic_fade",
                     "label": "Midnight Shadow Metallic Fade",
                     "hex": [
-                        "#191970"
+                        "#000000"
                     ],
                     "stock": 4,
                     "images": [
@@ -7846,8 +7823,7 @@
                     "colorKey": "satin_obsidian_dune_white",
                     "label": "Satin Obsidian Dune White",
                     "hex": [
-                        "#445A60",
-                        "#E3D9C6"
+                        "#454545"
                     ],
                     "stock": 1,
                     "images": [
@@ -7865,7 +7841,8 @@
                     "colorKey": "matte_black",
                     "label": "Matte Black",
                     "hex": [
-                        "#111111"
+                        "#ffffff",
+                        "#E8DDC5"
                     ],
                     "stock": 18,
                     "images": [
@@ -8013,7 +7990,7 @@
                     "colorKey": "gloss_blk_pearl",
                     "label": "Gloss Blk Pearl",
                     "hex": [
-                        "#000000"
+                        "#C7BDAF"
                     ],
                     "stock": 20,
                     "images": [
@@ -8185,7 +8162,7 @@
                     "colorKey": "gloss_oasis",
                     "label": "Gloss Oasis",
                     "hex": [
-                        "#4A8E8B"
+                        "#B7C7AF"
                     ],
                     "stock": 3,
                     "images": [
@@ -8333,7 +8310,7 @@
                     "colorKey": "gloss_fjord_metallic",
                     "label": "Gloss Fjord Metallic",
                     "hex": [
-                        "#617178"
+                        "#446073"
                     ],
                     "stock": 6,
                     "images": [
@@ -8480,7 +8457,7 @@
                     "colorKey": "gloss_dark_moss_green",
                     "label": "Gloss Dark Moss Green",
                     "hex": [
-                        "#4A5D23"
+                        "#000000"
                     ],
                     "stock": 14,
                     "images": [
@@ -8624,8 +8601,7 @@
                     "label": "Satin Harvest Gold Tint Obsidian Dune White",
                     "hex": [
                         "#DAA520",
-                        "#445A60",
-                        "#E3D9C6"
+                        "#000000"
                     ],
                     "stock": 7,
                     "images": [
@@ -8642,8 +8618,8 @@
                     "colorKey": "satin_obsidian_dune_white",
                     "label": "Satin Obsidian Dune White",
                     "hex": [
-                        "#445A60",
-                        "#E3D9C6"
+                        "#454545",
+                        "#000000"
                     ],
                     "stock": 1,
                     "images": [
@@ -8790,7 +8766,7 @@
                     "colorKey": "satin_dark_moss_green",
                     "label": "Satin Dark Moss Green",
                     "hex": [
-                        "#4A5D23"
+                        "#BCD3D4"
                     ],
                     "stock": 11,
                     "images": [
@@ -8805,7 +8781,7 @@
                     "colorKey": "satin_black_onyx",
                     "label": "Satin Black Onyx",
                     "hex": [
-                        "#0F0F0F"
+                        "#474747"
                     ],
                     "stock": 5,
                     "images": [
@@ -8950,10 +8926,8 @@
                     "colorKey": "satin_carbon_metallic_sapphire_metallic_white_silver",
                     "label": "Satin Carbon Metallic Sapphire Metallic White Silver",
                     "hex": [
-                        "#333333",
-                        "#0F52BA",
-                        "#FFFFFF",
-                        "#C0C0C0"
+                        "#476166",
+                        "#C2BABA"
                     ],
                     "stock": 2,
                     "images": [
@@ -9099,9 +9073,7 @@
                     "colorKey": "gloss_purple_indigo_midnight_shadow",
                     "label": "Gloss Purple Indigo Midnight Shadow",
                     "hex": [
-                        "#800080",
-                        "#4B0082",
-                        "#191970"
+                        "#B4B5D4"
                     ],
                     "stock": 13,
                     "images": [
@@ -9116,8 +9088,7 @@
                     "colorKey": "satin_blue_onyx_dune_white",
                     "label": "Satin Blue Onyx Dune White",
                     "hex": [
-                        "#003366",
-                        "#E3D9C6"
+                        "#636787"
                     ],
                     "stock": 8,
                     "images": [
@@ -9262,8 +9233,7 @@
                     "colorKey": "satin_forest_green_spruce_metallic_spruce",
                     "label": "Satin Forest Green Spruce Metallic Spruce",
                     "hex": [
-                        "#228B22",
-                        "#005A32"
+                        "#E8DDC5"
                     ],
                     "stock": 15,
                     "images": [
@@ -9409,9 +9379,7 @@
                     "colorKey": "satin_green_tint_gunmetal_satin_metallic_sulphur",
                     "label": "Satin Green Tint Gunmetal Satin Metallic Sulphur",
                     "hex": [
-                        "#90EE90",
-                        "#2A2D2F",
-                        "#A8A800"
+                        "#4D4D4D"
                     ],
                     "stock": 4,
                     "images": [
@@ -9557,8 +9525,7 @@
                     "colorKey": "gloss_seafoam_silver_dust",
                     "label": "Gloss Seafoam Silver Dust",
                     "hex": [
-                        "#9FE2BF",
-                        "#BFC1C2"
+                        "#BCCECF"
                     ],
                     "stock": 21,
                     "images": [
@@ -9718,7 +9685,7 @@
                     "colorKey": "satin_electric_green",
                     "label": "Satin Electric Green",
                     "hex": [
-                        "#00FF00"
+                        "#67C277"
                     ],
                     "stock": 9,
                     "images": [
@@ -9734,7 +9701,7 @@
                     "colorKey": "gloss_gunmetal",
                     "label": "Gloss Gunmetal",
                     "hex": [
-                        "#2A2D2F"
+                        "#524B37"
                     ],
                     "stock": 17,
                     "images": [
@@ -9895,6 +9862,7 @@
                     "colorKey": "other",
                     "label": "other",
                     "hex": [
+                        "#F07100",
                         "#CCCCCC"
                     ],
                     "stock": 10,
@@ -10040,8 +10008,8 @@
                     "colorKey": "gloss_dune_white_smoke",
                     "label": "Gloss Dune White Smoke",
                     "hex": [
-                        "#E3D9C6",
-                        "#738276"
+                        "#001EC4",
+                        "#ffffff"
                     ],
                     "stock": 3,
                     "images": [
@@ -10056,7 +10024,8 @@
                     "colorKey": "satin_other",
                     "label": "Satin Other",
                     "hex": [
-                        "#CCCCCC"
+                        "#ffffff",
+                        "#858585"
                     ],
                     "stock": 12,
                     "images": [
@@ -10201,7 +10170,7 @@
                     "colorKey": "satin_copper_speckle",
                     "label": "Satin Copper Speckle",
                     "hex": [
-                        "#B87333"
+                        "#8F4F1B"
                     ],
                     "stock": 1,
                     "images": [
@@ -10348,8 +10317,8 @@
                     "colorKey": "gloss_gunmetal_white_mountains",
                     "label": "Gloss Gunmetal White Mountains",
                     "hex": [
-                        "#2A2D2F",
-                        "#FFFFFF"
+                        "#57493C",
+                        "#E8DDC5"
                     ],
                     "stock": 19,
                     "images": [
@@ -10478,7 +10447,7 @@
                     "colorKey": "gloss_pine_green",
                     "label": "Gloss Pine Green",
                     "hex": [
-                        "#01796F"
+                        "#E3DBD8"
                     ],
                     "stock": 14,
                     "images": [
@@ -10491,7 +10460,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#0270CF"
                     ],
                     "stock": 19,
                     "images": [
@@ -10618,7 +10587,8 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#383838",
+                        "#A8A8A8"
                     ],
                     "stock": 19,
                     "images": [
@@ -10750,7 +10720,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#424242"
                     ],
                     "stock": 19,
                     "images": [
@@ -10879,7 +10849,7 @@
                     "colorKey": "green",
                     "label": "green",
                     "hex": [
-                        "#008000"
+                        "#C8D6BF"
                     ],
                     "stock": 8,
                     "images": [
@@ -10894,7 +10864,7 @@
                     "colorKey": "purple",
                     "label": "purple",
                     "hex": [
-                        "#800080"
+                        "#93A0C2"
                     ],
                     "stock": 5,
                     "images": [
@@ -10909,7 +10879,7 @@
                     "colorKey": "dark_green",
                     "label": "dark_green",
                     "hex": [
-                        "#006400"
+                        "#8F8C75"
                     ],
                     "stock": 8,
                     "images": [
@@ -11038,7 +11008,7 @@
                     "colorKey": "yellow",
                     "label": "yellow",
                     "hex": [
-                        "#FFFF00"
+                        "#DBBE00"
                     ],
                     "stock": 3,
                     "images": [
@@ -11053,7 +11023,7 @@
                     "colorKey": "green",
                     "label": "green",
                     "hex": [
-                        "#008000"
+                        "#73CF69"
                     ],
                     "stock": 8,
                     "images": [
@@ -11192,7 +11162,7 @@
                     "colorKey": "orange",
                     "label": "orange",
                     "hex": [
-                        "#FFA500"
+                        "#E67600"
                     ],
                     "stock": 7,
                     "images": [
@@ -11207,7 +11177,7 @@
                     "colorKey": "light_blue",
                     "label": "light_blue",
                     "hex": [
-                        "#ADD8E6"
+                        "#C8DEDE"
                     ],
                     "stock": 16,
                     "images": [
@@ -11222,7 +11192,7 @@
                     "colorKey": "black",
                     "label": "black",
                     "hex": [
-                        "#000000"
+                        "#3D3D3D"
                     ],
                     "stock": 22,
                     "images": [
@@ -11237,7 +11207,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#828282"
                     ],
                     "stock": 19,
                     "images": [
@@ -11482,7 +11452,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#CCCCCC"
                     ],
                     "stock": 19,
                     "images": [
@@ -11499,7 +11469,7 @@
                     "colorKey": "violet",
                     "label": "violet",
                     "hex": [
-                        "#EE82EE"
+                        "#452D2D"
                     ],
                     "stock": 2,
                     "images": [
@@ -11629,7 +11599,7 @@
                     "colorKey": "gray",
                     "label": "gray",
                     "hex": [
-                        "#808080"
+                        "#2D3745"
                     ],
                     "stock": 22,
                     "images": [
@@ -11742,7 +11712,8 @@
                     "colorKey": "gray",
                     "label": "gray",
                     "hex": [
-                        "#808080"
+                        "#4D463C",
+                        "#E8DDC5"
                     ],
                     "stock": 22,
                     "images": [
@@ -11860,7 +11831,8 @@
                     "colorKey": "white",
                     "label": "white",
                     "hex": [
-                        "#FFFFFF"
+                        "#FFFFFF",
+                        "#E8DDC5"
                     ],
                     "stock": 15,
                     "images": [
@@ -11877,7 +11849,7 @@
                     "colorKey": "black",
                     "label": "black",
                     "hex": [
-                        "#000000"
+                        "#474747"
                     ],
                     "stock": 22,
                     "images": [
@@ -12007,7 +11979,7 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#C5D6D5"
                     ],
                     "stock": 14,
                     "images": [
@@ -12136,7 +12108,8 @@
                     "colorKey": "golden",
                     "label": "golden",
                     "hex": [
-                        "#FFD700"
+                        "#FFD700",
+                        "#D1B000"
                     ],
                     "stock": 10,
                     "images": [
@@ -12271,7 +12244,8 @@
                     "colorKey": "beige",
                     "label": "beige",
                     "hex": [
-                        "#F5F5DC"
+                        "#3B3B3B",
+                        "#827446"
                     ],
                     "stock": 7,
                     "images": [
@@ -12406,7 +12380,7 @@
                     "colorKey": "orange",
                     "label": "orange",
                     "hex": [
-                        "#FFA500"
+                        "#FF9000"
                     ],
                     "stock": 7,
                     "images": [
@@ -12526,7 +12500,7 @@
                 {
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#89A3AD"
                     ],
                     "stock": 14,
                     "images": [
@@ -12537,7 +12511,7 @@
                     "colorKey": "grey",
                     "label": "grey",
                     "hex": [
-                        "#808080"
+                        "#002FFF"
                     ],
                     "stock": 19,
                     "images": [
@@ -12666,7 +12640,8 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#000000",
+                        "#066E7D"
                     ],
                     "stock": 14,
                     "images": [
@@ -12782,7 +12757,8 @@
                     "colorKey": "blue",
                     "label": "blue",
                     "hex": [
-                        "#0000FF"
+                        "#000000",
+                        "#005DA8"
                     ],
                     "stock": 14,
                     "images": [
@@ -13037,7 +13013,7 @@
                     "colorKey": "green",
                     "label": "green",
                     "hex": [
-                        "#008000"
+                        "#BAD9D6"
                     ],
                     "stock": 8,
                     "images": [
@@ -13139,7 +13115,7 @@
                     "colorKey": "satin_rusted_red",
                     "label": "Satin Rusted Red",
                     "hex": [
-                        "#9B2F1F"
+                        "#6B412C"
                     ],
                     "stock": 4,
                     "images": [
@@ -13243,8 +13219,7 @@
                     "colorKey": "gloss_dove_grey_chameleon_lapis",
                     "label": "Gloss Dove Grey Chameleon Lapis",
                     "hex": [
-                        "#6D6C67",
-                        "#26619C"
+                        "#ffffff"
                     ],
                     "stock": 13,
                     "images": [
@@ -13397,9 +13372,8 @@
                     "colorKey": "gloss_dove_grey_cool_grey_chameleon_lapis",
                     "label": "Gloss Dove Grey Cool Grey Chameleon Lapis",
                     "hex": [
-                        "#6D6C67",
-                        "#8C92AC",
-                        "#26619C"
+                        "#ffffff",
+                        "#8C92AC"
                     ],
                     "stock": 20,
                     "images": [
@@ -13412,8 +13386,7 @@
                     "colorKey": "satin_tropical_teal_teal_tint_arctic_blue",
                     "label": "Satin Tropical Teal Teal Tint Arctic Blue",
                     "hex": [
-                        "#008B8B",
-                        "#C0E8D5"
+                        "#1E4452"
                     ],
                     "stock": 3,
                     "images": [
@@ -13550,7 +13523,7 @@
                     "colorKey": "pine_green_metallic",
                     "label": "Pine Green Metallic",
                     "hex": [
-                        "#01796F"
+                        "#ffffff"
                     ],
                     "stock": 9,
                     "images": [
@@ -13566,7 +13539,7 @@
                     "colorKey": "matte_indigo",
                     "label": "Matte Indigo",
                     "hex": [
-                        "#4B0082"
+                        "#CC0000"
                     ],
                     "stock": 11,
                     "images": [
@@ -13582,7 +13555,7 @@
                     "colorKey": "gloss_black",
                     "label": "gloss_black",
                     "hex": [
-                        "#000000"
+                        "#ffffff"
                     ],
                     "stock": 15,
                     "images": [
@@ -13598,7 +13571,7 @@
                     "colorKey": "satin_silver",
                     "label": "Satin Silver",
                     "hex": [
-                        "#C0C0C0"
+                        "#000000"
                     ],
                     "stock": 5,
                     "images": [
@@ -13772,7 +13745,7 @@
                     "colorKey": "Green",
                     "label": "Green",
                     "hex": [
-                        "#008000"
+                        "#B4C9A9"
                     ],
                     "stock": 25,
                     "images": [
@@ -13911,8 +13884,7 @@
                     "label": "Gloss Taupe Gunmetal Strata Charcoal",
                     "hex": [
                         "#483C32",
-                        "#2A2D2F",
-                        "#36454F"
+                        "#000000"
                     ],
                     "stock": 2,
                     "images": [
@@ -14045,8 +14017,7 @@
                     "colorKey": "satin_carbon_liquid_silver",
                     "label": "Satin Carbon Liquid Silver",
                     "hex": [
-                        "#333333",
-                        "#D3D3D3"
+                        "#E8DDC5"
                     ],
                     "stock": 6,
                     "images": [
@@ -14061,7 +14032,7 @@
                     "colorKey": "satin_silver",
                     "label": "Satin Silver",
                     "hex": [
-                        "#C0C0C0"
+                        "#454545"
                     ],
                     "stock": 5,
                     "images": [
@@ -14192,8 +14163,7 @@
                     "colorKey": "gloss_birch_gold_pearl_radial_fades",
                     "label": "Gloss Birch Gold Pearl Radial Fades",
                     "hex": [
-                        "#F2E8C9",
-                        "#FFD700"
+                        "#ffffff"
                     ],
                     "stock": 6,
                     "images": [
@@ -14357,8 +14327,8 @@
                     "colorKey": "satin_taupe_birch",
                     "label": "Satin Taupe Birch",
                     "hex": [
-                        "#483C32",
-                        "#F2E8C9"
+                        "#D9C7C7",
+                        "#C7ADAD"
                     ],
                     "stock": 17,
                     "images": [
@@ -14497,7 +14467,7 @@
                     "colorKey": "gloss_dolomite_metallic",
                     "label": "Gloss Dolomite Metallic",
                     "hex": [
-                        "#828282"
+                        "#ffffff"
                     ],
                     "stock": 21,
                     "images": [
@@ -14633,7 +14603,7 @@
                     "colorKey": "gloss_purple_haze_rebel_pink",
                     "label": "Gloss Purple Haze Rebel Pink",
                     "hex": [
-                        "#800080",
+                        "#5F5ACC",
                         "#FF1493"
                     ],
                     "stock": 1,
@@ -14647,7 +14617,7 @@
                     "colorKey": "satin_deep_lake_metallic_burnt_gold_metallic",
                     "label": "Satin Deep Lake Metallic Burnt Gold Metallic",
                     "hex": [
-                        "#003366",
+                        "#575757",
                         "#846724"
                     ],
                     "stock": 5,
@@ -14816,7 +14786,7 @@
                     "colorKey": "metallic_deep_lake_deep_lake",
                     "label": "Metallic Deep Lake Deep Lake",
                     "hex": [
-                        "#003366"
+                        "#2C5469"
                     ],
                     "stock": 7,
                     "images": [
@@ -15281,8 +15251,8 @@
                     "colorKey": "gloss_champagne_smoke",
                     "label": "Gloss Champagne Smoke",
                     "hex": [
-                        "#F7E7CE",
-                        "#738276"
+                        "#E6D4CC",
+                        "#737373"
                     ],
                     "stock": 14,
                     "images": [
@@ -15411,9 +15381,8 @@
                     "colorKey": "satin_carbon_deep_lake_smoke_white_sage_metallic",
                     "label": "Satin Carbon Deep Lake Smoke White Sage Metallic",
                     "hex": [
-                        "#333333",
-                        "#003366",
-                        "#738276"
+                        "#7A949E",
+                        "#666666"
                     ],
                     "stock": 8,
                     "images": [
@@ -15697,7 +15666,7 @@
                     "colorKey": "gloss_red_pearl_fiery_red_strata",
                     "label": "Gloss Red Pearl Fiery Red Strata",
                     "hex": [
-                        "#FF0000"
+                        "#A81313"
                     ],
                     "stock": 11,
                     "images": [
