@@ -38387,5 +38387,117 @@
             "name": "BMX Bikes",
             "slug": "bmx-bikes"
         }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "Specialized",
+            "slug": "specialized"
+        },
+        {
+            "id": 2,
+            "name": "Giant",
+            "slug": "giant"
+        },
+        {
+            "id": 3,
+            "name": "Focus",
+            "slug": "focus"
+        },
+        {
+            "id": 4,
+            "name": "CECOTEC",
+            "slug": "cecotec"
+        },
+        {
+            "id": 5,
+            "name": "OBREA",
+            "slug": "obrea"
+        },
+        {
+            "id": 6,
+            "name": "Bianchi",
+            "slug": "bianchi"
+        },
+        {
+            "id": 7,
+            "name": "megamo",
+            "slug": "megamo"
+        },
+        {
+            "id": 8,
+            "name": "SCOTT",
+            "slug": "scott"
+        },
+        {
+            "id": 9,
+            "name": "Wilier",
+            "slug": "wilier"
+        },
+        {
+            "id": 10,
+            "name": "Liv",
+            "slug": "liv"
+        },
+        {
+            "id": 11,
+            "name": "MERIDA",
+            "slug": "merida"
+        },
+        {
+            "id": 12,
+            "name": "cervelo",
+            "slug": "cervelo"
+        },
+        {
+            "id": 13,
+            "name": "Verde",
+            "slug": "verde"
+        },
+        {
+            "id": 14,
+            "name": "Fiend",
+            "slug": "fiend"
+        },
+        {
+            "id": 15,
+            "name": "CULT",
+            "slug": "cult"
+        },
+        {
+            "id": 16,
+            "name": "WeThePeople",
+            "slug": "wetthepeople"
+        },
+        {
+            "id": 17,
+            "name": "Sunday",
+            "slug": "sunday"
+        },
+        {
+            "id": 18,
+            "name": "FitBikeCo",
+            "slug": "fitbikeco"
+        },
+        {
+            "id": 19,
+            "name": "wildcat",
+            "slug": "wildcat"
+        },
+        {
+            "id": 20,
+            "name": "Stranger",
+            "slug": "stranger"
+        },
+        {
+            "id": 21,
+            "name": "Dk",
+            "slug": "dk"
+        },
+        {
+            "id": 22,
+            "name": "SI-BMX",
+            "slug": "si-bmx"
+        }
     ]
 }

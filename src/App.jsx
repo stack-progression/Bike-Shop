@@ -1,80 +1,50 @@
-import { ShopContext } from "./Context/ShopContext";
-import { useCategories } from "./Hooks/useCategories";
-import { useProducts } from "./Hooks/useProducts";
-import { useReviews } from "./Hooks/useReviews";
-import { useVariants } from "./Hooks/useVariants";
-// import { useQuery } from "@tanstack/react-query";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+// import { ShopContext } from "./Context/ShopContext";
+// import { useCategories } from "./Hooks/useCategories";
+// import { useProducts } from "./Hooks/useProducts";
+// import { useReviews } from "./Hooks/useReviews";
+// import { useVariants } from "./Hooks/useVariants";
+import RootLayout from "./Layout/RootLayout";
+import Home from "./Pages/Home";
+import ShopLayout from "./Layout/ShopLayout";
+import Category from "./Pages/Category";
+import Filter from "./Pages/Filter";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Cart from "./Pages/Cart";
+import Product from "./Pages/Product";
+import ShopHome from "./Pages/ShopHome";
+import NotFound from "./Pages/NotFound";
 function App() {
-  // const { isPending, error, data } = useQuery({
-  //   queryKey: ['products'],
-  //   queryFn: () =>
-  //     fetch('https://bike-shop-xe1j.onrender.com/categories').then((res) =>
-  //       res.json(),
-  //     ),
-  // })
+  // const { data: products, isPending: productsLoading } = useProducts();
+  // const { data: categories, isPending: categoriesLoading } = useCategories();
+  // const { data: variants, isPending: variantsLoading } = useVariants();
+  // const { data: reviews, isPending: reviewsLoading } = useReviews();
 
-  // if (isPending) return 'Loading...'
-
-  // if (error) return 'An error has occurred: ' + error.message
-
-  const { data: products, isPending: productsLoading } = useProducts();
-  const { data: categories, isPending: categoriesLoading } = useCategories();
-  const { data: variants, isPending: variantsLoading } = useVariants();
-  const { data: reviews, isPending: reviewsLoading } = useReviews();
-
-  if (productsLoading || categoriesLoading || variantsLoading || reviewsLoading)
-    return "Loading...";
-
-  return (
-    <div>
-      {products?.map((item) => {
-        return (
-          <div key={item.id}>
-            <h1>{item.name}</h1>
-            {
-              item?.variants?.map((variant, i) => {
-                return(
-                  <div key={i}>
-                    <h2>{variant.label}</h2>
-                    <div style={{background: `${variant.hex[0]}`, width: "100px", height: "100px"}}></div>
-                    <div style={{background: `${variant.hex[1]}`, width: "100px", height: "100px"}}></div>
-                    <div style={{background: `${variant.hex[2]}`, width: "100px", height: "100px"}}></div>
-                    <div style={{background: `${variant.hex[3]}`, width: "100px", height: "100px"}}></div>
-                    {variant.images.map((img, idx) => {
-                      return(
-                        img && <img style={{width: "100px"}} key={idx} src={img}/>
-                      )
-                    })}
-                  </div>
-                )
-              })
-            }
-          </div>
-        )
-      })}
-      {categories?.map((item) => {
-        return (
-          <h1 key={item.id}>
-            {item.name} - {item.slug}
-          </h1>
-        );
-      })}
-      {variants?.map((item) => {
-        return (
-          <h1 key={item.id}>
-            {item.colorKey} - {item.label}
-          </h1>
-        );
-      })}
-      {reviews?.map((item) => {
-        return (
-          <h1 key={item.id}>
-            {item.userName} - {item.rating}
-          </h1>
-        );
-      })}
-    </div>
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="shop" element={<ShopLayout />}>
+          <Route index element={<ShopHome />} />
+          <Route path="category/:categorySlug" element={<Category />} />
+          <Route path="brand/:brandSlug" element={<Filter />} />
+        </Route>
+        <Route path="product/:id" element={<Product />}></Route>
+        <Route path="*" element={<NotFound />} />
+      </Route>,
+    ),
   );
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
