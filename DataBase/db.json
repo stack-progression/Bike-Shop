@@ -38392,112 +38392,134 @@
         {
             "id": 1,
             "name": "Specialized",
-            "slug": "specialized"
+            "slug": "specialized",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/specialized-logo.png"
         },
         {
             "id": 2,
             "name": "Giant",
-            "slug": "giant"
+            "slug": "giant",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/giant-logo.png"
         },
         {
             "id": 3,
             "name": "Focus",
-            "slug": "focus"
+            "slug": "focus",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/focus-logo.jpg"
         },
         {
             "id": 4,
             "name": "CECOTEC",
-            "slug": "cecotec"
+            "slug": "cecotec",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/cecotec-logo.png"
         },
         {
             "id": 5,
             "name": "OBREA",
-            "slug": "obrea"
+            "slug": "obrea",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/obrea-logo.jpg"
         },
         {
             "id": 6,
             "name": "Bianchi",
-            "slug": "bianchi"
+            "slug": "bianchi",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/bianchi-logo.png"
         },
         {
             "id": 7,
             "name": "megamo",
-            "slug": "megamo"
+            "slug": "megamo",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/megamo-logo.png"
         },
         {
             "id": 8,
             "name": "SCOTT",
-            "slug": "scott"
+            "slug": "scott",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/scott-logo.png"
         },
         {
             "id": 9,
             "name": "Wilier",
-            "slug": "wilier"
+            "slug": "wilier",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/wilier-logo.png"
         },
         {
             "id": 10,
             "name": "Liv",
-            "slug": "liv"
+            "slug": "liv",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/liv-logo.png"
         },
         {
             "id": 11,
             "name": "MERIDA",
-            "slug": "merida"
+            "slug": "merida",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/merida-logo.png"
         },
         {
             "id": 12,
             "name": "cervelo",
-            "slug": "cervelo"
+            "slug": "cervelo",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/cervelo-logo.png"
         },
         {
             "id": 13,
             "name": "Verde",
-            "slug": "verde"
+            "slug": "verde",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/verde-logo.png"
         },
         {
             "id": 14,
             "name": "Fiend",
-            "slug": "fiend"
+            "slug": "fiend",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/fiend-logo.png"
         },
         {
             "id": 15,
             "name": "CULT",
-            "slug": "cult"
+            "slug": "cult",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/cult-logo.png"
         },
         {
             "id": 16,
             "name": "WeThePeople",
-            "slug": "wetthepeople"
+            "slug": "wetthepeople",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/wethepeople-logo.png"
         },
         {
             "id": 17,
             "name": "Sunday",
-            "slug": "sunday"
+            "slug": "sunday",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/sunday-logo.png"
         },
         {
             "id": 18,
             "name": "FitBikeCo",
-            "slug": "fitbikeco"
+            "slug": "fitbikeco",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/fitbikeco-logo.jpg"
         },
         {
             "id": 19,
             "name": "wildcat",
-            "slug": "wildcat"
+            "slug": "wildcat",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/wildcat-logo.png"
         },
         {
             "id": 20,
             "name": "Stranger",
-            "slug": "stranger"
+            "slug": "stranger",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/stranger-logo.png"
         },
         {
             "id": 21,
             "name": "Dk",
-            "slug": "dk"
+            "slug": "dk",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/dk-bicycles-logo.png"
         },
         {
             "id": 22,
             "name": "SI-BMX",
-            "slug": "si-bmx"
+            "slug": "si-bmx",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/si-bmx-logo.png"
         }
     ]
 }

@@ -1,0 +1,45 @@
+.new-model{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    max-width: 1400px;
+    background: linear-gradient(to bottom, #000000, #b0b0b0);
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    anchor-name: --new-model;
+    scroll-snap-type: x mandatory;
+}
+.new-model .items{
+    display: flex;
+    flex-direction: row;
+}
+.new-model::-webkit-scrollbar{
+    display: none;
+}
+@media (min-width: 768px) {
+    .new-model::scroll-button(right), .new-model::scroll-button(left){
+    content: "\203A";
+    border: none;
+    background: none;
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    position-anchor: --new-model;
+    cursor: pointer;
+    position-area: right center;
+    color: #ffffff;
+}
+.new-model::scroll-button(right):disabled, .new-model::scroll-button(left):disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+.new-model::scroll-button(left){
+    content: "\2039";
+    position-area: left center;
+
+}
+}
