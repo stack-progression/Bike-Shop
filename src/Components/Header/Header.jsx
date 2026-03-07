@@ -13,8 +13,8 @@ const Header = () => {
       } else {
         setScroll(false);
       }
-      console.log(currentPosition);
-      console.log(lastScroll);
+      // console.log(currentPosition);
+      // console.log(lastScroll);
       setLastScroll(currentPosition);
     }
     window.addEventListener("scroll", handleScroll);

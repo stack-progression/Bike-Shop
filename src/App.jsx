@@ -9,7 +9,7 @@ import {
 // import { useProducts } from "./Hooks/useProducts";
 // import { useReviews } from "./Hooks/useReviews";
 // import { useVariants } from "./Hooks/useVariants";
-import { useBrands } from "./Hooks/useBrands";
+// import { useBrands } from "./Hooks/useBrands";
 import RootLayout from "./Layout/RootLayout";
 import Home from "./Pages/Home";
 import ShopLayout from "./Layout/ShopLayout";
@@ -23,14 +23,14 @@ import ShopHome from "./Pages/ShopHome";
 import NotFound from "./Pages/NotFound";
 import LoginSignup from "./Pages/LoginSignup";
 function App() {
-  const {data: brand, isPending: brandLoading} = useBrands();
+  // const {data: brand, isPending: brandLoading} = useBrands();
   // const { data: products, isPending: productsLoading } = useProducts();
   // const { data: categories, isPending: categoriesLoading } = useCategories();
   // const { data: variants, isPending: variantsLoading } = useVariants();
   // const { data: reviews, isPending: reviewsLoading } = useReviews();
 
-  if(brandLoading) return "Loading..."
-  console.log(brand);
+  // if(brandLoading) return "Loading..."
+  // console.log(brand);
 
   const router = createBrowserRouter(
     createRoutesFromElements(

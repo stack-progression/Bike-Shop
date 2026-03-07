@@ -38355,37 +38355,44 @@
         {
             "id": 1,
             "name": "Electric Bikes",
-            "slug": "electric-bikes"
+            "slug": "electric-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Electric.avif"
         },
         {
             "id": 2,
             "name": "Mountain Bikes",
-            "slug": "mountain-bikes"
+            "slug": "mountain-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Mountain.jpg"
         },
         {
             "id": 3,
             "name": "Road Bikes",
-            "slug": "road-bikes"
+            "slug": "road-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Road.jpg"
         },
         {
             "id": 4,
             "name": "City Bikes",
-            "slug": "city-bikes"
+            "slug": "city-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/City.jpg"
         },
         {
             "id": 5,
             "name": "Gravel Bikes",
-            "slug": "gravel-bikes"
+            "slug": "gravel-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Gravel.jpg"
         },
         {
             "id": 6,
             "name": "Kids Bikes",
-            "slug": "kids-bikes"
+            "slug": "kids-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Kid.jpg"
         },
         {
             "id": 7,
             "name": "BMX Bikes",
-            "slug": "bmx-bikes"
+            "slug": "bmx-bikes",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Bmx.jpg"
         }
     ],
     "brands": [
