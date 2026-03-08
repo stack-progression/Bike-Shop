@@ -36,11 +36,11 @@ const Brands = () => {
       {brands && count < brands.length ? (
         <button className="brands-control-btn" onClick={handleCount}>
           <p>Vezi mai mult</p>
-          <img src="../../../public/image/icons/down-arrow.png" alt="" />
+          <img src="../../../public/image/icons/down-arrow.png" alt="down-arrow" />
         </button>
       ) : (
         <button className="brands-control-btn" onClick={handleBack}>
-          <img src="../../../public/image/icons/up-arrow.png" alt="" />
+          <img src="../../../public/image/icons/up-arrow.png" alt="up-arrow" />
           <p>Vezi mai putin</p>
         </button>
       )}

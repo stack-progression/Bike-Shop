@@ -38354,43 +38354,43 @@
     "categories": [
         {
             "id": 1,
-            "name": "Electric Bikes",
+            "name": "Biciclete Electrice",
             "slug": "electric-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Electric.jpg"
         },
         {
             "id": 2,
-            "name": "Mountain Bikes",
+            "name": "Biciclete de Munte",
             "slug": "mountain-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Mountain.jpg"
         },
         {
             "id": 3,
-            "name": "Road Bikes",
+            "name": "Biciclete Rutiere",
             "slug": "road-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Road.jpg"
         },
         {
             "id": 4,
-            "name": "City Bikes",
+            "name": "Biciclete de oras",
             "slug": "city-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/City.jpg"
         },
         {
             "id": 5,
-            "name": "Gravel Bikes",
+            "name": "Biciclete de pietris",
             "slug": "gravel-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Gravel.jpg"
         },
         {
             "id": 6,
-            "name": "Kids Bikes",
+            "name": "Biciclete pentru copii",
             "slug": "kids-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Kid.jpg"
         },
         {
             "id": 7,
-            "name": "BMX Bikes",
+            "name": "Biciclete BMX",
             "slug": "bmx-bikes",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/category/Bmx.jpg"
         }
