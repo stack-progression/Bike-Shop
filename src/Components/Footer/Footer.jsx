@@ -10,7 +10,7 @@ const Footer = () => {
       <hr />
       <MiddleSectionFooter />
       <hr />
-      <p></p>
+      <p>© 2026 toate drepturilesunt rezervate | Velaro</p>
     </div>
   )
 }

@@ -1,0 +1,130 @@
+.filter {
+  position: fixed;
+  height: 100vh;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+}
+.filter-container {
+  position: fixed;
+  top: 8px;
+  bottom: 8px;
+  right: 8px;
+  background: #d9d9d9;
+  border-radius: 4px;
+  overflow-y: scroll;
+  width: 100%;
+  max-width: 200px;
+}
+.filter-container::-webkit-scrollbar {
+  display: none;
+}
+.name-close {
+  position: sticky;
+  top: 0px;
+  border-radius: 4px 4px 0 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 6px;
+  height: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.name-close p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.name-close button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+.name-close img {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+}
+.filter-categories {
+  background: #ffffff;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 2px;
+}
+.filter-categories p {
+  color: #6a6a6a;
+  font-size: 8px;
+}
+.filter-categories hr {
+  border: none;
+  height: 1px;
+  background: #cccccc;
+}
+.filter-link,
+.all {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 0 0 5px;
+  border-radius: 0 0 4px 4px;
+}
+.filter-link a,
+.all {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 15px;
+}
+.appears-search {
+  animation: Appear 0.5s ease-in-out;
+}
+@keyframes Appear {
+  0%{
+    transform: translateX(300px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@media (min-width: 768px) {
+  .filter-container {
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    max-width: 300px;
+  }
+  .name-close {
+    padding: 7px;
+    height: 30px;
+  }
+  .name-close p {
+    font-size: 18px;
+  }
+  .name-close img {
+    width: 16px;
+    height: 16px;
+  }
+  .filter-categories {
+    padding: 10px;
+    margin: 10px;
+  }
+  .filter-categories p {
+    font-size: 14px;
+  }
+  .filter-categories hr {
+    height: 2px;
+  }
+  .filter-link,
+  .all {
+    gap: 8px;
+    padding: 0 0 0 10px;
+  }
+  .filter-link a,
+  .all {
+    font-size: 18px;
+  }
+}

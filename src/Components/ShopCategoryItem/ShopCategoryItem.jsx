@@ -1,14 +1,21 @@
-import React from 'react'
-import "./ShopCategoryItem.css"
-import { Link } from 'react-router-dom'
+import React, { useContext } from "react";
+import "./ShopCategoryItem.css";
+import { Link } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 
 const ShopCategoryItem = (i) => {
+  const { scrollToTop } = useContext(ShopContext);
+
   return (
-    <Link to={`/category/${i.id}`} className='shop-category-items'>
+    <Link
+      onClick={scrollToTop}
+      to={`shop/category/${i.id}`}
+      className="shop-category-items"
+    >
       <img src={i.img} alt={i.name} />
       <p>{i.name}</p>
     </Link>
-  )
-}
+  );
+};
 
-export default ShopCategoryItem
+export default ShopCategoryItem;

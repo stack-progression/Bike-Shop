@@ -1,11 +1,14 @@
 import React from "react";
 import "./HeaderFooter.css";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { ShopContext } from "../../Context/ShopContext";
 
 const HeaderFooter = () => {
+  const { scrollToTop } = useContext(ShopContext);
   return (
     <div className="header-footer">
-      <Link to="/">
+      <Link onClick={scrollToTop} to="/">
         <img
           className="logo"
           src="../../../public/image/logo/logo.png"

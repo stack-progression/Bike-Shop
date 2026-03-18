@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import "./Brands.css";
 import { useBrands } from "../../Hooks/useBrands";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Brands = () => {
   const [count, setCount] = useState(6);
+  const { scrollToTop } = useContext(ShopContext);
   const { data: brands, isPending: brandsLoading } = useBrands();
 
   if (brandsLoading) return "Loading...";
@@ -23,8 +26,9 @@ const Brands = () => {
         {brands.slice(0, count).map((brand) => {
           return (
             <Link
+              onClick={scrollToTop}
               className="brands-link"
-              to={`brand/${brand.slug}`}
+              to={`shop/brand/${brand.slug}`}
               key={brand.id}
             >
               <img className="brands-img" src={brand.image} alt={brand.name} />
@@ -32,11 +36,13 @@ const Brands = () => {
           );
         })}
       </div>
-
       {brands && count < brands.length ? (
         <button className="brands-control-btn" onClick={handleCount}>
           <p>Vezi mai mult</p>
-          <img src="../../../public/image/icons/down-arrow.png" alt="down-arrow" />
+          <img
+            src="../../../public/image/icons/down-arrow.png"
+            alt="down-arrow"
+          />
         </button>
       ) : (
         <button className="brands-control-btn" onClick={handleBack}>

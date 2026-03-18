@@ -1,0 +1,11 @@
+.shop-layout{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1400px;
+    width: 100%;
+}
+@media (min-width: 1024px) {
+    .shop-layout{
+    padding-left: 15px;
+}
+}

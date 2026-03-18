@@ -1,8 +1,12 @@
 import React from "react";
 import "./NewModelItem.css";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { ShopContext } from "../../Context/ShopContext";
 
 const NewModelItem = (item) => {
+  const { scrollToTop } = useContext(ShopContext);
+
   return (
     <div className="new-model-item">
       <img src={item.img} alt={item.name} />
@@ -11,7 +15,9 @@ const NewModelItem = (item) => {
           <h2>{item.name}</h2>
           <p>{item.description}</p>
         </div>
-        <Link to={`/product/${item.id}`}>VIZUALIZEAZA</Link>
+        <Link onClick={scrollToTop} to={`/product/${item.id}`}>
+          VIZUALIZEAZA
+        </Link>
       </div>
     </div>
   );

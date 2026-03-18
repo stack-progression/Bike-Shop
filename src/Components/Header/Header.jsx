@@ -1,17 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
+import { ShopContext } from "../../Context/ShopContext";
 const Header = () => {
-  const [scroll, setScroll] = useState(false);
+  const { setOpenSearch, openSearch, setOpenFilter, scrollToTop } =
+    useContext(ShopContext);
+  const [scroll, setScroll] = useState(true);
   const [lastScroll, setLastScroll] = useState(0);
 
   useEffect(() => {
     function handleScroll() {
       const currentPosition = window.scrollY;
       if (currentPosition > lastScroll && currentPosition > 0) {
-        setScroll(true);
-      } else {
         setScroll(false);
+      } else {
+        setScroll(true);
       }
       // console.log(currentPosition);
       // console.log(lastScroll);
@@ -24,8 +27,8 @@ const Header = () => {
   }, [lastScroll]);
 
   return (
-    <div className={`header ${scroll ? "hide" : "appears"}`}>
-      <Link to="/">
+    <div className={`header ${scroll || openSearch ? "appears" : "hide"}`}>
+      <Link onClick={scrollToTop} to="/">
         <img
           loading="eager"
           className="logo"
@@ -34,23 +37,36 @@ const Header = () => {
         />
       </Link>
       <div className="about-contact">
-        <NavLink to="/about">Despre</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink onClick={scrollToTop} to="/about">
+          Despre
+        </NavLink>
+        <NavLink onClick={scrollToTop} to="/contact">
+          Contact
+        </NavLink>
       </div>
       <div className="header-options">
-        <button>
+        <button
+          onClick={() => {
+            setOpenSearch(true);
+          }}
+        >
           <img src="../../../public/image/icons/loupe.png" alt="loupe" />
         </button>
-        <Link to="/cart">
+        <Link onClick={scrollToTop} to="/cart">
           <img
             src="../../../public/image/icons/shopping-cart.png"
             alt="shopping-cart"
           />
         </Link>
-        <Link to="/autentification">
+        <Link onClick={scrollToTop} to="/autentification">
           <img src="../../../public/image/icons/people.png" alt="User" />
         </Link>
-        <button>
+        <button
+          onClick={() => {
+            setOpenFilter(true);
+            setOpenSearch(false);
+          }}
+        >
           <img src="../../../public/image/icons/menu.png" alt="bars" />
         </button>
       </div>

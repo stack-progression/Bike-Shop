@@ -1,22 +1,19 @@
-import React from 'react'
-import { ShopContext } from './ShopContext';
+import React, { useState } from "react";
+import { ShopContext } from "./ShopContext";
 
-const Context = ({children}) => {
+const Context = ({ children }) => {
+  const [openSearch, setOpenSearch] = useState(false);
+  const [openFilter, setOpenFilter] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollY(0,0);
+  }
 
-
-
-
-
-
-    
-    const AppValue = {data: "salut"};
+  const AppValue = { scrollToTop, openSearch, setOpenSearch, openFilter, setOpenFilter };
 
   return (
-    <ShopContext.Provider value={AppValue}>
-      {children}
-    </ShopContext.Provider>
-  )
-}
+    <ShopContext.Provider value={AppValue}>{children}</ShopContext.Provider>
+  );
+};
 
-export default Context
+export default Context;
