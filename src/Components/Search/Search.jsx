@@ -6,12 +6,23 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const Search = () => {
   const location = useLocation();
-  const { openSearch, setOpenSearch, scrollToTop } = useContext(ShopContext);
+  const {
+    openSearch,
+    setOpenSearch,
+    scrollToTop,
+    search,
+    setSearch,
+    setSearchResults,
+    // searchResults
+  } = useContext(ShopContext);
   useEffect(() => {
     setOpenSearch(false);
   }, [location.pathname, setOpenSearch]);
   const { data: category, isPending: categoryLoading } = useCategories();
   if (categoryLoading) return "Loading...";
+
+  // console.log(search);
+  // console.log(searchResults);
 
   return (
     <div className="search" style={{ display: openSearch ? "" : "none" }}>
@@ -22,13 +33,24 @@ const Search = () => {
               src="https://bike-images.andrew-code.com/Bike%20Image/icons/loupe.png"
               alt="search icon"
             />
-            <input type="text" placeholder="Cauta" />
-            <button>
+            <input
+              onChange={(e) => setSearch(e.target.value)}
+              type="text"
+              placeholder="Cauta"
+            />
+            <Link
+              to={"shop"}
+              onClick={() => {
+                setSearchResults(search);
+                setOpenSearch(false);
+                scrollTo(0, 0)
+              }}
+            >
               <img
                 src="https://bike-images.andrew-code.com/Bike%20Image/icons/right-arrow.png"
                 alt="right arrow"
               />
-            </button>
+            </Link>
           </div>
           <button
             onClick={() => {

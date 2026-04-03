@@ -16,7 +16,7 @@ const OurStory = () => {
             timp pentru tine, aer curat și momente reale trăite în afara
             ecranelor.
           </p>
-          <img src="../../../public/image/photo1.jpg" alt="Our Story" />
+          <img loading="lazy" src="../../../public/image/photo1.jpg" alt="Our Story" />
         </div>
         <p>
           Din această viziune s-a construit selecția noastră atent aleasă de

@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useProducts } from "../Hooks/useProducts";
 import { useCategories } from "../Hooks/useCategories";
 import ItemProducts from "../Components/ItemProducts/ItemProducts";
+import { ShopContext } from "../Context/ShopContext";
 
 const Category = () => {
   const params = useParams();
@@ -10,6 +11,7 @@ const Category = () => {
   const { data: category, isPending: categoryLoading } = useCategories();
   if (productsLoading || categoryLoading) return "Loading...";
   const getCategory = category.filter((f) => f.slug === params.categorySlug);
+
   // console.log(params);
   // console.log(getCategory);
   const categoryParams = products.filter(
@@ -18,7 +20,9 @@ const Category = () => {
   // console.log(categoryParams);
   return (
     <div className="shop">
-      <h2>Biciclete {`(${products.length})`}</h2>
+      <h2>
+        {getCategory[0].name} {`(${categoryParams.length})`}
+      </h2>
       <div className="shop-container">
         {categoryParams.map((p) => {
           return (
@@ -33,9 +37,6 @@ const Category = () => {
             />
           );
         })}
-        {/* <div>
-          
-        </div> */}
       </div>
     </div>
   );

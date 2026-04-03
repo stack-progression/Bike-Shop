@@ -1,0 +1,121 @@
+.product-details-specification {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  max-width: 1400px;
+}
+.product-details-specification hr {
+  width: 100%;
+  height: 1px;
+  background: #d9d9d9;
+  margin: 10px 0;
+  border: none;
+}
+.ds-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.title-button h2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.title-button button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.title-button img {
+  display: flex;
+  width: 15px;
+}
+.details-paragraf {
+  flex-direction: column;
+  font-size: 9px;
+}
+.details-paragraf p {
+  margin: 5px 0;
+}
+.ds-tehnical-container {
+  display: flex;
+  flex-direction: column;
+}
+.ds-tehnical-container-item-name-value-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ds-tehnical-container-item-name-value {
+  margin: 2px 0;
+}
+.ds-tehnical-container-item-name-value-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin: 8px 0;
+}
+.ds-tehnical-container-item h2 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.ds-tehnical-container-item-name {
+  font-size: 11px;
+}
+.ds-tehnical-container-item-value {
+  font-size: 9px;
+  font-weight: 300;
+}
+@media (min-width: 450px) {
+  .title-button h2 {
+    font-size: 18px;
+  }
+  .title-button img {
+    width: 20px;
+  }
+  .details-paragraf {
+    font-size: 14px;
+  }
+  .ds-tehnical-container-item-name-value {
+    margin: 5px 0;
+  }
+  .ds-tehnical-container-item-name-value-container {
+    margin: 10px 0;
+  }
+  .ds-tehnical-container-item h2 {
+    font-size: 16px;
+  }
+  .ds-tehnical-container-item-name {
+    font-size: 14px;
+  }
+  .ds-tehnical-container-item-value {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .product-details-specification hr {
+    height: 2px;
+  }
+  .title-button h2 {
+    font-size: 24px;
+  }
+  .title-button img {
+    width: 30px;
+  }
+  .details-paragraf {
+    font-size: 16px;
+  }
+  .ds-tehnical-container-item h2 {
+    font-size: 20px;
+  }
+  .ds-tehnical-container-item-name {
+    font-size: 16px;
+  }
+  .ds-tehnical-container-item-value {
+    font-size: 14px;
+  }
+}

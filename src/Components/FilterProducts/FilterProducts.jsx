@@ -18,7 +18,7 @@ const FilterProducts = () => {
           <h2>Biciclete</h2>
           <hr />
           <div className="filter-products-links">
-            <Link to="shop" onClick={scrollToTop} className="filter-products-item-link">
+            <Link to="/shop" onClick={scrollToTop} className="filter-products-item-link">
               Toate bicicletele
             </Link>
             {category.map((i) => {

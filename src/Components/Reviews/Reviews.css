@@ -1,0 +1,94 @@
+.reviews {
+  width: 100%;
+  position: relative;
+}
+.reviews h2 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.rating, .reviews h2 {
+  padding: 0 10px;
+}
+.rating{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+.stars-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.rating-list {
+  position: absolute;
+  gap: 10px;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+.rating-list-container {
+  anchor-name: --reviews;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.rating-list-container::-webkit-scrollbar {
+  display: none;
+}
+.rating-list-container .reviews-item {
+  scroll-snap-align: start;
+}
+@media (min-width: 450px) {
+  .reviews h2 {
+  font-size: 18px;
+}
+.rating {
+  margin: 0 0 10px 0;
+}
+  .rating-list-container {
+    gap: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .reviews h2 {
+  font-size: 24px;
+}
+.rating {
+  margin: 0 0 20px 0;
+}
+  .rating-list-container {
+    gap: 15px;
+  }
+}
+@media (min-width: 850px) {
+  .rating-list{
+    padding: 0 40px;
+  }
+  .rating-list-container::scroll-button(left),
+  .rating-list-container::scroll-button(right) {
+    padding: 0;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    content: "\2039";
+    position-anchor: --reviews;
+    font-size: 80px;
+    height: 60px;
+    position-area: left center;
+    translate: -50%;
+  }
+  .rating-list-container::scroll-button(right) {
+    content: "\203A";
+    translate: 50%;
+    position-area: right center;
+  }
+}

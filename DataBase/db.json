@@ -38528,5 +38528,43 @@
             "slug": "si-bmx",
             "image": "https://bike-images.andrew-code.com/Bike%20Image/brands/si-bmx-logo.png"
         }
+    ],
+    "cards": [
+        {
+            "id": 1,
+            "name": "Google Pay",
+            "slug": "google-pay",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/Cards/google-pay-logo.png"
+        },
+        {
+            "id": 2,
+            "name": "BCR",
+            "slug": "bcr",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/Cards/logo-bcr.png"
+        },
+        {
+            "id": 3,
+            "name": "ING",
+            "slug": "ing",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/Cards/logo-ing.png"
+        },
+        {
+            "id": 4,
+            "name": "PayPal",
+            "slug": "paypal",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/Cards/paypal-logo.png"
+        },
+        {
+            "id": 5,
+            "name": "Raiffeisen Bank",
+            "slug": "raiffeisen-bank",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/Cards/Raiffeisen-Bank-International-Logo.png"
+        },
+        {
+            "id": 6,
+            "name": "Revolut",
+            "slug": "revolut",
+            "image": "https://bike-images.andrew-code.com/Bike%20Image/Cards/Revolut-Logo.png"
+        }
     ]
 }

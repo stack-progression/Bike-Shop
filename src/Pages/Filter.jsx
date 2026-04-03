@@ -11,12 +11,12 @@ const Filter = () => {
   if (productsLoading || brandLoading) return "Loading...";
   const getBrand = brand.filter((b) => b.slug === params.brandSlug);
   const getBrandProduct = products.filter((p) => p.brand === getBrand[0].name);
-  console.log(getBrandProduct);
-  console.log(getBrand);
-  console.log(params);
+  // console.log(getBrandProduct);
+  // console.log(getBrand);
+  // console.log(params);
   return (
     <div className="shop">
-      <h2>Biciclete {`(${products.length})`}</h2>
+      <h2>{getBrand[0].name} {`(${getBrandProduct.length})`}</h2>
       <div className="shop-container">
         {getBrandProduct.map((p) => {
           return (
@@ -31,9 +31,6 @@ const Filter = () => {
             />
           );
         })}
-        {/* <div>
-          
-        </div> */}
       </div>
     </div>
   );

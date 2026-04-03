@@ -50,16 +50,25 @@ const Header = () => {
             setOpenSearch(true);
           }}
         >
-          <img src="../../../public/image/icons/loupe.png" alt="loupe" />
+          <img
+            loading="eager"
+            src="../../../public/image/icons/loupe.png"
+            alt="loupe"
+          />
         </button>
         <Link onClick={scrollToTop} to="/cart">
           <img
+            loading="eager"
             src="../../../public/image/icons/shopping-cart.png"
             alt="shopping-cart"
           />
         </Link>
         <Link onClick={scrollToTop} to="/autentification">
-          <img src="../../../public/image/icons/people.png" alt="User" />
+          <img
+            loading="eager"
+            src="../../../public/image/icons/people.png"
+            alt="User"
+          />
         </Link>
         <button
           onClick={() => {
@@ -67,7 +76,11 @@ const Header = () => {
             setOpenSearch(false);
           }}
         >
-          <img src="../../../public/image/icons/menu.png" alt="bars" />
+          <img
+            loading="eager"
+            src="../../../public/image/icons/menu.png"
+            alt="bars"
+          />
         </button>
       </div>
     </div>

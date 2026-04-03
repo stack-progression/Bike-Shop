@@ -12,7 +12,7 @@ const ShopCategoryItem = (i) => {
       to={`shop/category/${i.id}`}
       className="shop-category-items"
     >
-      <img src={i.img} alt={i.name} />
+      <img loading="lazy" src={i.img} alt={i.name} />
       <p>{i.name}</p>
     </Link>
   );

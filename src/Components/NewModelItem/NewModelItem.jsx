@@ -9,7 +9,7 @@ const NewModelItem = (item) => {
 
   return (
     <div className="new-model-item">
-      <img src={item.img} alt={item.name} />
+      <img loading="lazy" src={item.img} alt={item.name} />
       <div className="item">
         <div className="description">
           <h2>{item.name}</h2>

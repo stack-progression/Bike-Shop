@@ -26,7 +26,8 @@
 .search-container img {
   width: 10px;
 }
-.search-container button {
+.search-container button,
+.search-container a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +57,7 @@
   outline: none;
   width: 100%;
 }
-.search-input-btn button {
+.search-input-btn a {
   padding: 0;
   border: none;
   background: none;
@@ -127,7 +128,7 @@
   .search-input-btn input {
     font-size: 13px;
   }
-  .search-input-btn button {
+  .search-input-btn a {
     width: 18px;
   }
   .search-display .search-category-container {
@@ -180,7 +181,7 @@
     font-size: 16px;
     font-weight: 600;
   }
-  .search-input-btn button {
+  .search-input-btn a {
     width: 22px;
   }
   .search-display .search-category-container {

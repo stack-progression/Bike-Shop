@@ -31,7 +31,7 @@ const Brands = () => {
               to={`shop/brand/${brand.slug}`}
               key={brand.id}
             >
-              <img className="brands-img" src={brand.image} alt={brand.name} />
+              <img loading="lazy" className="brands-img" src={brand.image} alt={brand.name} />
             </Link>
           );
         })}
@@ -39,14 +39,14 @@ const Brands = () => {
       {brands && count < brands.length ? (
         <button className="brands-control-btn" onClick={handleCount}>
           <p>Vezi mai mult</p>
-          <img
+          <img loading="lazy"
             src="../../../public/image/icons/down-arrow.png"
             alt="down-arrow"
           />
         </button>
       ) : (
         <button className="brands-control-btn" onClick={handleBack}>
-          <img src="../../../public/image/icons/up-arrow.png" alt="up-arrow" />
+          <img loading="lazy" src="../../../public/image/icons/up-arrow.png" alt="up-arrow" />
           <p>Vezi mai putin</p>
         </button>
       )}

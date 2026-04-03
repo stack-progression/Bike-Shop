@@ -7,16 +7,15 @@ import { ShopContext } from "../../Context/ShopContext";
 const ItemProducts = (item) => {
   const [colorIndex, setColorIndex] = useState(0);
   const { scrollToTop } = useContext(ShopContext);
-
   //   console.log(item);
   return (
     <div key={item.id} className="item-products">
       <Link
         onClick={scrollToTop}
-        to={`product/${item.id}`}
+        to={"/"+`product/${item.id}`}
         className="img-container"
       >
-        <img src={item.item.variants[colorIndex].images[0]} alt="" />
+        <img loading="lazy" src={item.item.variants[colorIndex].images[0]} alt="bikes" />
       </Link>
       <div className="colors-dteails-container">
         <div className="colors">

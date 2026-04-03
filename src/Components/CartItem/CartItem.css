@@ -1,0 +1,226 @@
+.cart-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  background: #dfdfdf;
+  border-radius: 4px;
+  max-width: 1000px;
+}
+.cart-item .close {
+  position: absolute;
+  padding: 0;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+.cart-item .bike-image {
+  width: 120px;
+  margin-right: 5px;
+}
+.cart-item .item-details {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-self: start;
+}
+.item-details .name {
+  margin-top: 15px;
+  font-size: 8px;
+  font-weight: 500;
+}
+.item-details .price {
+  display: flex;
+  justify-content: end;
+  font-size: 10px;
+  font-weight: 700;
+}
+.item-details hr {
+  height: 1px;
+  width: 100%;
+  border: none;
+  margin: 2px 0;
+  background: #bcbcbc;
+}
+.item-details .title {
+  font-size: 9px;
+  font-weight: 600;
+}
+.item-details .text {
+  font-size: 8px;
+  font-weight: 300;
+}
+.price-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.price-quantity .price-quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  height: 16px;
+}
+.price-quantity-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: none;
+  outline: none;
+  font-size: 10px;
+  background: #ececec;
+}
+.price-quantity-container button:nth-child(1) {
+  border-radius: 2px 0 0 2px;
+}
+.price-quantity-container button:last-child {
+  border-radius: 0 2px 2px 0;
+}
+.price-quantity-container p {
+  width: 16px;
+  height: 16px;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  background: #ffffff;
+}
+@media (min-width: 485px) {
+  .cart-item {
+    padding: 7px;
+  }
+  .cart-item .close {
+    top: 6px;
+    right: 6px;
+    font-size: 15px;
+  }
+  .cart-item .bike-image {
+    width: 180px;
+    margin-right: 10px;
+  }
+  .item-details .name {
+    /* margin-top: 15px; */
+    font-size: 10px;
+  }
+  .item-details .price {
+    font-size: 14px;
+  }
+  .item-details hr {
+    height: 2px;
+    margin: 4px 0;
+  }
+  .item-details .title {
+    font-size: 12px;
+  }
+  .item-details .text {
+    font-size: 10px;
+  }
+
+  .price-quantity .price-quantity-container {
+    height: 18px;
+  }
+  .price-quantity-container button {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    background: #ececec;
+  }
+  .price-quantity-container p {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .cart-item {
+    padding: 10px;
+  }
+  .cart-item .close {
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+  .cart-item .bike-image {
+    width: 200px;
+    margin-right: 30px;
+  }
+  .item-details .name {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .item-details .price {
+    font-size: 20px;
+  }
+  .item-details .title {
+    font-size: 14px;
+  }
+  .item-details .text {
+    font-size: 12px;
+  }
+  .price-quantity .price-quantity-container {
+    height: 24px;
+  }
+  .price-quantity-container button {
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+  }
+  .price-quantity-container p {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .cart-item {
+    padding: 15px;
+  }
+  .cart-item .close {
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+  }
+  .cart-item .bike-image {
+    width: 270px;
+    margin-right: 40px;
+  }
+  .item-details .name {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .item-details .price {
+    font-size: 22px;
+  }
+  .item-details .title {
+    font-size: 16px;
+  }
+  .item-details .text {
+    font-size: 14px;
+  }
+  .price-quantity .price-quantity-container {
+    height: 34px;
+  }
+  .price-quantity-container button {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+  .price-quantity-container p {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+}
