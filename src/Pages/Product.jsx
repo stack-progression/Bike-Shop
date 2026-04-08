@@ -34,13 +34,13 @@ const Product = () => {
         Bicicleta
         <img
           loading="lazy"
-          src="../../public/image/icons/chevron-right.png"
+          src="https://bike-images.andrew-code.com/Bike%20Image/icons/chevron-right.png"
           alt="chevron-right"
         />
         {getCategory(p.categoryId)}
         <img
           loading="lazy"
-          src="../../public/image/icons/chevron-right.png"
+          src="https://bike-images.andrew-code.com/Bike%20Image/icons/chevron-right.png"
           alt="chevron-right"
         />
         {p.name}

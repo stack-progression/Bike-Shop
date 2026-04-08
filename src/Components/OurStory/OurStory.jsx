@@ -18,7 +18,7 @@ const OurStory = () => {
           </p>
           <img
             loading="lazy"
-            src="../../../public/image/photo1.jpg"
+            src="https://bike-images.andrew-code.com/Bike%20Image/photo1.jpg"
             alt="Our Story"
           />
         </div>

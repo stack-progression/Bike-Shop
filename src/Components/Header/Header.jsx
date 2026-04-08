@@ -33,7 +33,7 @@ const Header = () => {
         <img
           loading="eager"
           className="logo"
-          src="../../public/image/logo/f0d600aa-7f19-4aed-bf2b-d9c35d16cbc2.png"
+          src="https://bike-images.andrew-code.com/Bike%20Image/logo/f0d600aa-7f19-4aed-bf2b-d9c35d16cbc2.png"
           alt="Logo Velaro"
         />
       </Link>
@@ -53,7 +53,7 @@ const Header = () => {
         >
           <img
             loading="eager"
-            src="../../../public/image/icons/loupe.png"
+            src="https://bike-images.andrew-code.com/Bike%20Image//icons/loupe.png"
             alt="loupe"
           />
         </button>
@@ -61,14 +61,14 @@ const Header = () => {
           <p className="cart-quantity">{cart.length}</p>
           <img
             loading="eager"
-            src="../../../public/image/icons/shopping-cart.png"
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/shopping-cart.png"
             alt="shopping-cart"
           />
         </Link>
         <Link onClick={scrollToTop} to="/autentification">
           <img
             loading="eager"
-            src="../../../public/image/icons/people.png"
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/people.png"
             alt="User"
           />
         </Link>
@@ -80,7 +80,7 @@ const Header = () => {
         >
           <img
             loading="eager"
-            src="../../../public/image/icons/menu.png"
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/menu.png"
             alt="bars"
           />
         </button>

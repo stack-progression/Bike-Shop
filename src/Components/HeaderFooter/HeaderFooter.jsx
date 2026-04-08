@@ -12,7 +12,7 @@ const HeaderFooter = () => {
         <img
           loading="lazy"
           className="logo"
-          src="../../../public/image/logo/logo.png"
+          src="https://bike-images.andrew-code.com/Bike%20Image/logo/logo.png"
           alt="logo"
         />
       </Link>
