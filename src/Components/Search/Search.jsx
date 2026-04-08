@@ -30,6 +30,7 @@ const Search = () => {
         <div className="search-container">
           <div className="search-input-btn">
             <img
+              loading="lazy"
               src="https://bike-images.andrew-code.com/Bike%20Image/icons/loupe.png"
               alt="search icon"
             />
@@ -43,10 +44,11 @@ const Search = () => {
               onClick={() => {
                 setSearchResults(search);
                 setOpenSearch(false);
-                scrollTo(0, 0)
+                scrollTo(0, 0);
               }}
             >
               <img
+                loading="lazy"
                 src="https://bike-images.andrew-code.com/Bike%20Image/icons/right-arrow.png"
                 alt="right arrow"
               />

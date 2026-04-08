@@ -9,7 +9,7 @@ const ShopHome = () => {
   const { data: products, isPending: productLoading } = useProducts();
   if (productLoading) return "Loading...";
   // const getSearch = products.filter((f) => searchResults === f.name);
-  const getSearch = products.filter((product) =>
+  const getSearch = products?.filter((product) =>
     product.shortDescription
       .toLowerCase()
       .includes(searchResults.toLowerCase()),
@@ -20,11 +20,11 @@ const ShopHome = () => {
   return (
     <div className="shop">
       <h2>
-        Biciclete {`(${getSearch > 0 ? products.length : getSearch.length})`}
+        Biciclete {`(${getSearch > 0 ? products?.length : getSearch?.length})`}
       </h2>
       <div className="shop-container">
         {getSearch.length > 0
-          ? getSearch.map((p) => {
+          ? getSearch?.map((p) => {
               return (
                 <ItemProducts
                   item={p}
@@ -37,7 +37,7 @@ const ShopHome = () => {
                 />
               );
             })
-          : products.map((p) => {
+          : products?.map((p) => {
               return (
                 <ItemProducts
                   item={p}

@@ -21,22 +21,22 @@ const HeaderFooter = () => {
         <img
           loading="lazy"
           src="https://bike-images.andrew-code.com/Bike%20Image/media-icon/icons8-instagram.svg"
-          alt=""
+          alt="instagram"
         />
         <img
           loading="lazy"
           src="https://bike-images.andrew-code.com/Bike%20Image/media-icon/icons8-facebook.svg"
-          alt=""
+          alt="facebook"
         />
         <img
           loading="lazy"
           src="https://bike-images.andrew-code.com/Bike%20Image/media-icon/icons8-youtube.svg"
-          alt=""
+          alt="youtube"
         />
         <img
           loading="lazy"
           src="https://bike-images.andrew-code.com/Bike%20Image/media-icon/tiktok-icon.png"
-          alt=""
+          alt="tiktok"
         />
       </div>
     </div>

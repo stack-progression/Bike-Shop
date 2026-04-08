@@ -33,13 +33,13 @@ const Product = () => {
       <p className="breadcrumbs">
         Bicicleta
         <img
-          style={{ width: "20px" }}
+          loading="lazy"
           src="../../public/image/icons/chevron-right.png"
           alt="chevron-right"
         />
         {getCategory(p.categoryId)}
         <img
-          style={{ width: "20px" }}
+          loading="lazy"
           src="../../public/image/icons/chevron-right.png"
           alt="chevron-right"
         />

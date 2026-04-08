@@ -45,6 +45,16 @@ const Context = ({ children }) => {
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState("");
 
+  const totalAmount = cart.reduce(
+    (total, item) => total + item.price * item.quantity,
+    0,
+  );
+
+  const totalQuantity = cart.reduce(
+    (total, items) => total + items.quantity,
+    0,
+  );
+
   const getCategory = (e) => {
     if (e === 1) {
       return "Electrice";
@@ -131,6 +141,8 @@ const Context = ({ children }) => {
     clearCart,
     cart,
     products,
+    totalAmount,
+    totalQuantity,
   };
 
   return (

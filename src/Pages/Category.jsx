@@ -14,14 +14,14 @@ const Category = () => {
 
   // console.log(params);
   // console.log(getCategory);
-  const categoryParams = products.filter(
+  const categoryParams = products?.filter(
     (p) => p.categoryId === getCategory[0].id,
   );
   // console.log(categoryParams);
   return (
     <div className="shop">
       <h2>
-        {getCategory[0].name} {`(${categoryParams.length})`}
+        {getCategory[0].name} {`(${categoryParams?.length})`}
       </h2>
       <div className="shop-container">
         {categoryParams.map((p) => {

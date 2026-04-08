@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../Context/ShopContext";
 import "./CartItem.css";
+import { Link } from "react-router-dom";
 
 const CartItem = (item) => {
   const { addToCart, removeFromCart, deleteProduct } = useContext(ShopContext);
@@ -8,9 +9,11 @@ const CartItem = (item) => {
   return (
     <div key={item.id} className="cart-item">
       <button className="close" onClick={() => deleteProduct(item.id)}>
-        <i class="fa-solid fa-xmark"></i>
+        <i className="fa-solid fa-xmark"></i>
       </button>
-      <img className="bike-image" src={item.image} alt={item.name} />
+      <Link to={`/product/${item.id}`} onClick={() => window.scrollTo(0, 0)}>
+        <img  loading="lazy" className="bike-image" src={item.image} alt={item.name} />
+      </Link>
       <div className="item-details">
         <p className="name">{item.name}</p>
         <hr />
@@ -24,14 +27,14 @@ const CartItem = (item) => {
               className="quantity-button"
               onClick={() => removeFromCart(item.id)}
             >
-              <i class="fa-solid fa-minus"></i>
+              <i className="fa-solid fa-minus"></i>
             </button>
             <p className="quantity">{item.quantity}</p>
             <button
               className="quantity-button"
               onClick={() => addToCart(item.item)}
             >
-              <i class="fa-solid fa-plus"></i>
+              <i className="fa-solid fa-plus"></i>
             </button>
           </div>
           <p className="price">

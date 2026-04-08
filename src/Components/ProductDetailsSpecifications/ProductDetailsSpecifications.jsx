@@ -23,6 +23,7 @@ const ProductDetailsSpecifications = (p) => {
             }}
           >
             <img
+              loading="lazy"
               src={
                 open.button1
                   ? "https://bike-images.andrew-code.com/Bike%20Image/icons/down-arrow.png"
@@ -51,6 +52,7 @@ const ProductDetailsSpecifications = (p) => {
             }}
           >
             <img
+              loading="lazy"
               src={
                 open.button2
                   ? "https://bike-images.andrew-code.com/Bike%20Image/icons/down-arrow.png"

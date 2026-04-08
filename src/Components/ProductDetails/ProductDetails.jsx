@@ -1,9 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import "../ProductImage/ProductImage.css";
 import { ShopContext } from "../../Context/ShopContext";
 
 const ProductDetails = (p) => {
-  const item = p.p;
+  const buyRef = useRef();
+  const item = p?.p;
   const {
     setImage,
     stars,
@@ -41,7 +42,20 @@ const ProductDetails = (p) => {
           <p>
             {item?.price} {item?.currency}
           </p>
-          <button onClick={() => addToCart(item)}>Cumpara</button>
+          <button
+            onClick={() => {
+              buyRef.current.style.animationName = "buy";
+              setTimeout(() => {
+                buyRef.current.style.animationName = "";
+              }, 1000);
+              addToCart(item);
+            }}
+          >
+            Cumpara
+          </button>
+          <div ref={buyRef} className="check">
+            <i class="fa-solid fa-check"></i>
+          </div>
           {/* <button onClick={() => removeFromCart(item.id)}>remove</button>
           <button onClick={() => deleteProduct(item.id)}>del</button>
           <button onClick={() => clearCart()}>clear</button> */}

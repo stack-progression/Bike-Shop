@@ -3,10 +3,11 @@ import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 import { ShopContext } from "../../Context/ShopContext";
 const Header = () => {
-  const { setOpenSearch, openSearch, setOpenFilter, scrollToTop } =
+  const { setOpenSearch, openSearch, setOpenFilter, scrollToTop, cart } =
     useContext(ShopContext);
   const [scroll, setScroll] = useState(true);
   const [lastScroll, setLastScroll] = useState(0);
+  console.log(cart);
 
   useEffect(() => {
     function handleScroll() {
@@ -56,7 +57,8 @@ const Header = () => {
             alt="loupe"
           />
         </button>
-        <Link onClick={scrollToTop} to="/cart">
+        <Link className="cart-link" onClick={scrollToTop} to="/cart">
+          <p className="cart-quantity">{cart.length}</p>
           <img
             loading="eager"
             src="../../../public/image/icons/shopping-cart.png"

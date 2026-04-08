@@ -25,6 +25,7 @@ const Filter = () => {
             }}
           >
             <img
+              loading="lazy"
               src="https://bike-images.andrew-code.com/Bike%20Image/icons/close.png"
               alt="close"
             />

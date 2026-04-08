@@ -22,6 +22,8 @@ import Product from "./Pages/Product";
 import ShopHome from "./Pages/ShopHome";
 import NotFound from "./Pages/NotFound";
 import LoginSignup from "./Pages/LoginSignup";
+import Error from "./Components/Error/Error";
+
 function App() {
   // const {data: brand, isPending: brandLoading} = useBrands();
   // const { data: products, isPending: productsLoading } = useProducts();
@@ -42,10 +44,22 @@ function App() {
         <Route path="cart" element={<Cart />} />
         <Route path="shop" element={<ShopLayout />}>
           <Route index element={<ShopHome />} />
-          <Route path="category/:categorySlug" element={<Category />} />
-          <Route path="brand/:brandSlug" element={<Filter />} />
+          <Route
+            path="category/:categorySlug"
+            element={<Category />}
+            errorElement={<Error />}
+          />
+          <Route
+            path="brand/:brandSlug"
+            element={<Filter />}
+            errorElement={<Error />}
+          />
         </Route>
-        <Route path="product/:id" element={<Product />}></Route>
+        <Route
+          path="product/:id"
+          element={<Product />}
+          errorElement={<Error />}
+        ></Route>
         <Route path="*" element={<NotFound />} />
       </Route>,
     ),

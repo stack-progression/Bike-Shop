@@ -1,114 +1,147 @@
-.header{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 30px;
-    width: 100%;
-    max-width: 1400px;
-    padding: 5px 10px;
-    box-shadow: 0px -2px 4px 0px #000000;
-    z-index: 1;
-    background-color: #ffffff;
+.cart-quantity {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  background: #ff0000;
+  color: #ffffff;
+  font-size: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 1;
 }
-.header .active{
-    text-decoration: underline;
-    text-underline-position: under;
+.cart-link:hover {
+  transform: scale(1.1);
 }
-.header a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    text-decoration: none;
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  width: 100%;
+  max-width: 1400px;
+  padding: 5px 10px;
+  box-shadow: 0px -2px 4px 0px #000000;
+  z-index: 1;
+  background-color: #ffffff;
 }
-.logo{
-    height: 20px;
+.header .active {
+  text-decoration: underline;
+  text-underline-position: under;
 }
-.about-contact{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    font-size: 12px;
-    font-weight: 600;
+.header a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-decoration: none;
 }
-.header-options{
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
+.logo {
+  height: 20px;
 }
-.header-options button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 10px;
-    border: none;
-    background-color: transparent;
+.about-contact {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
 }
-.header-options img{
-    width: 12px;
-    height: 12px;
+.header-options {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
 }
-.hide{
-    animation: 1s forwards;
-    transform: translateY(-100px);
-    transition: 0.5s ease-in-out;
+.header-options button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  border: none;
+  background-color: transparent;
 }
-.appears{
-    animation: 1s forwards;
-    transform: translateY(-0px);
-    transition: 0.3s ease-in-out;
+.header-options img {
+  width: 12px;
+  height: 12px;
 }
-.header-options img:hover{
-    transform: scale(1.1);
+.hide {
+  animation: 1s forwards;
+  transform: translateY(-100px);
+  transition: 0.5s ease-in-out;
+}
+.appears {
+  animation: 1s forwards;
+  transform: translateY(-0px);
+  transition: 0.3s ease-in-out;
+}
+.header-options img:hover {
+  transform: scale(1.1);
 }
 @media (min-width: 768px) {
-    .header{
+  .cart-quantity {
+    bottom: 14px;
+    left: 14px;
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+  }
+  .header {
     height: 70px;
     padding: 15px;
     box-shadow: 0 -2px 6px 0 #000000;
-}
-.logo{
+  }
+  .logo {
     height: 40px;
-}
-.about-contact{
+  }
+  .about-contact {
     gap: 20px;
     font-size: 20px;
-}
-.about-contact a:hover{
+  }
+  .about-contact a:hover {
     transform: scale(1.1);
-}
-.header-options{
+  }
+  .header-options {
     gap: 15px;
-}
-.header-options button{
+  }
+  .header-options button {
     width: 20px;
-}
-.header-options img{
+  }
+  .header-options img {
     width: 20px;
     height: 20px;
-}
+  }
 }
 @media (min-width: 1024px) {
-    .header{
+  .cart-quantity {
+    bottom: 16px;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+  }
+  .header {
     height: 60px;
     box-shadow: 0px 6px 10px -11px #000000;
-}
-.logo{
+  }
+  .logo {
     height: 44px;
-}
-.about-contact{
+  }
+  .about-contact {
     gap: 24px;
-}
-.header-options{
+  }
+  .header-options {
     gap: 25px;
-}
-.header-options button{
+  }
+  .header-options button {
     width: 25px;
-}
-.header-options img{
+  }
+  .header-options img {
     width: 25px;
     height: 25px;
-}
+  }
 }

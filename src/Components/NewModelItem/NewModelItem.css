@@ -46,6 +46,12 @@
   font-size: 6px;
   font-weight: 600;
 }
+.new-model-item a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.new-model-item a:active {
+  background: rgba(255, 255, 255, 0.15);
+}
 @media (min-width: 360px) {
   .new-model-item .description h2 {
     font-size: 11px;

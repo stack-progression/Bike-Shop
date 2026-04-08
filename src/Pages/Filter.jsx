@@ -16,9 +16,11 @@ const Filter = () => {
   // console.log(params);
   return (
     <div className="shop">
-      <h2>{getBrand[0].name} {`(${getBrandProduct.length})`}</h2>
+      <h2>
+        {getBrand[0].name} {`(${getBrandProduct.length})`}
+      </h2>
       <div className="shop-container">
-        {getBrandProduct.map((p) => {
+        {getBrandProduct?.map((p) => {
           return (
             <ItemProducts
               item={p}
