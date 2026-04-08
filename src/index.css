@@ -59,7 +59,7 @@ body::-webkit-scrollbar {
   left: 0;
   animation: Enter 1s ease-in-out;
   animation-fill-mode: forwards;
-  background-image: url(../../public/image/logo/f0d600aa-7f19-4aed-bf2b-d9c35d16cbc2.png);
+  background-image: url(https://bike-images.andrew-code.com/Bike%20Image/logo/f0d600aa-7f19-4aed-bf2b-d9c35d16cbc2.png);
   background-repeat: no-repeat;
   background-position: center;
 }

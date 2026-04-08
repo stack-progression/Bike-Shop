@@ -77,41 +77,86 @@ const Context = ({ children }) => {
     if (e === 1 || (e > 1 && e < 1.5)) {
       return (
         <div className="stars">
-          <img src="../../public/image/icons/star.png" alt="star" />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
         </div>
       );
     } else if (e === 2 || (e > 2 && e < 2.5)) {
       return (
         <div className="stars">
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
         </div>
       );
     } else if (e === 3 || (e > 3 && e < 3.5)) {
       return (
         <div className="stars">
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
         </div>
       );
     } else if (e === 4 || (e > 4 && e < 4.5)) {
       return (
         <div className="stars">
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
         </div>
       );
     } else if (e === 5 || (e > 4.5 && e <= 5)) {
       return (
         <div className="stars">
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
-          <img src="../../public/image/icons/star.png" alt="star" />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
+          <img
+            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
+            alt="star"
+          />
         </div>
       );
     }
