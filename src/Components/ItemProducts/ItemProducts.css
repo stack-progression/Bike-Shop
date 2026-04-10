@@ -1,3 +1,6 @@
+.price-colors{
+  display: flex;
+}
 .item-products {
   display: flex;
   width: 100%;

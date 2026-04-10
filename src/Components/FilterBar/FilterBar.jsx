@@ -15,7 +15,11 @@ const Filter = () => {
   //   console.log(category);
 
   return (
-    <div className="filter" style={{ display: openFilter ? "flex" : "none" }}>
+    <div
+      className="filter"
+      onClick={() => setOpenFilter(false)}
+      style={{ display: openFilter ? "flex" : "none" }}
+    >
       <div className={`filter-container ${openFilter ? "appears-search" : ""}`}>
         <div className="name-close">
           <p>Filtru</p>

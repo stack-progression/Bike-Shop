@@ -1,6 +1,6 @@
 .login-signup {
   position: relative;
-  top: 30px;
+  top: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -9,7 +9,7 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin: 20px auto;
+  margin: 20px auto 40px;
 }
 .login-signup h1 {
   font-size: 24px;

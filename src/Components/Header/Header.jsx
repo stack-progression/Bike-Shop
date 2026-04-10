@@ -7,7 +7,7 @@ const Header = () => {
     useContext(ShopContext);
   const [scroll, setScroll] = useState(true);
   const [lastScroll, setLastScroll] = useState(0);
-  console.log(cart);
+  // console.log(cart);
 
   useEffect(() => {
     function handleScroll() {

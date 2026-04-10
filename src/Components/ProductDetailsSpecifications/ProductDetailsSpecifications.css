@@ -23,13 +23,15 @@
   flex-direction: row;
 }
 .title-button h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 .title-button button {
   background: none;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 .title-button img {
   display: flex;

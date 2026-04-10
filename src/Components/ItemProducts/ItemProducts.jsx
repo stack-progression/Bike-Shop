@@ -12,34 +12,40 @@ const ItemProducts = (item) => {
     <div key={item.id} className="item-products">
       <Link
         onClick={scrollToTop}
-        to={"/"+`product/${item.id}`}
+        to={"/" + `product/${item.id}`}
         className="img-container"
       >
-        <img loading="lazy" src={item.item.variants[colorIndex].images[0]} alt="bikes" />
+        <img
+          loading="lazy"
+          src={item.item.variants[colorIndex].images[0]}
+          alt="bikes"
+        />
       </Link>
       <div className="colors-dteails-container">
-        <div className="colors">
-          {item.item.variants.map((v, index) => {
-            //   console.log(index);
-            return (
-              <button
-                onClick={() => {
-                  setColorIndex(index);
-                }}
-                key={index}
-                className="color"
-                style={{ background: v.hex[0] }}
-              ></button>
-            );
-          })}
-        </div>
         <p className="name">{item.name}</p>
         <p className="short-description">
           Bicicletă electrică ultra-ușoară pentru navetă urbană și ture rapide.
         </p>
-        <p className="price">
-          {item.price} {item.currency}
-        </p>
+        <div className="price-colors">
+          <p className="price">
+            {item.price} {item.currency}
+          </p>
+          <div className="colors">
+            {item.item.variants.map((v, index) => {
+              //   console.log(index);
+              return (
+                <button
+                  onClick={() => {
+                    setColorIndex(index);
+                  }}
+                  key={index}
+                  className="color"
+                  style={{ background: v.hex[0] }}
+                ></button>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );

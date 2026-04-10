@@ -16,7 +16,13 @@ const ProductDetailsSpecifications = (p) => {
       <div className="ds-container">
         <hr />
         <div className="title-button">
-          <h2>Detaliile produsului</h2>
+          <h2
+            onClick={() => {
+              setOpen((e) => ({ ...e, button1: !e.button1 }));
+            }}
+          >
+            Detaliile produsului
+          </h2>
           <button
             onClick={() => {
               setOpen((e) => ({ ...e, button1: !e.button1 }));
@@ -45,7 +51,13 @@ const ProductDetailsSpecifications = (p) => {
       <hr />
       <div className="ds-container">
         <div className="title-button">
-          <h2>Specificatii tehnice</h2>
+          <h2
+            onClick={() => {
+              setOpen((e) => ({ ...e, button2: !e.button2 }));
+            }}
+          >
+            Specificatii tehnice
+          </h2>
           <button
             onClick={() => {
               setOpen((e) => ({ ...e, button2: !e.button2 }));

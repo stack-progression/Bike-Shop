@@ -1,6 +1,6 @@
 .home {
   position: relative;
-  top: 30px;
+  top: 50px;
 }
 @media (min-width: 768px) {
   .home {

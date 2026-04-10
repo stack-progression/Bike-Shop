@@ -3,39 +3,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 50vw;
+  height: 50vw;
   border-radius: 4px;
   scroll-snap-align: start;
   scroll-snap-stop: always;
   background: linear-gradient(to bottom, #ffffff00, #00000000, #000000);
 }
 .shop-category-items img {
-  width: 100px;
-  height: 100px;
+  width: 50vw;
+  height: 50vw;
   z-index: -1;
   border-radius: 4px;
 }
 .shop-category-items p {
   position: absolute;
-  top: 83px;
+  bottom: 8px;
   left: 8px;
-  font-size: 6px;
+  font-size: 12px;
   color: #ffffff;
 }
 @media (min-width: 450px) {
-  .shop-category-items {
+  /* .shop-category-items {
     width: 150px;
     height: 150px;
   }
   .shop-category-items img {
     width: 150px;
     height: 150px;
-  }
+  } */
   .shop-category-items p {
-    top: 130px;
-    left: 10px;
-    font-size: 10px;
+    bottom: 15px;
+    left: 15px;
+    font-size: 20px;
   }
 }
 @media (min-width: 768px) {

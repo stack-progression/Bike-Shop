@@ -12,7 +12,7 @@ const initializer = (initialValue) => {
 
 const Context = ({ children }) => {
   const [cart, dispatch] = useReducer(cartReducer, initialState, initializer);
-  console.log(cart);
+  // console.log(cart);
 
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -74,89 +74,78 @@ const Context = ({ children }) => {
   };
 
   const stars = (e) => {
-    if (e === 1 || (e > 1 && e < 1.5)) {
+    if (e === 1) {
       return (
         <div className="stars">
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
+          <i className="fa-solid fa-star"></i>
         </div>
       );
-    } else if (e === 2 || (e > 2 && e < 2.5)) {
+    } else if (e > 1 && e < 2) {
       return (
         <div className="stars">
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
+          <i className="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
         </div>
       );
-    } else if (e === 3 || (e > 3 && e < 3.5)) {
+    } else if (e === 2) {
       return (
         <div className="stars">
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
         </div>
       );
-    } else if (e === 4 || (e > 4 && e < 4.5)) {
+    } else if (e > 2 && e < 3) {
       return (
         <div className="stars">
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star-half"></i>
         </div>
       );
-    } else if (e === 5 || (e > 4.5 && e <= 5)) {
+    } else if (e === 3) {
       return (
         <div className="stars">
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
-          <img
-            src="https://bike-images.andrew-code.com/Bike%20Image/icons/star.png"
-            alt="star"
-          />
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+        </div>
+      );
+    } else if (e > 3 && e < 4) {
+      return (
+        <div className="stars">
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star-half"></i>
+        </div>
+      );
+    } else if (e === 4) {
+      return (
+        <div className="stars">
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+        </div>
+      );
+    } else if (e > 4 && e < 5) {
+      return (
+        <div className="stars">
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star-half"></i>
+        </div>
+      );
+    } else if (e === 5) {
+      return (
+        <div className="stars">
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
         </div>
       );
     }
