@@ -32,8 +32,8 @@
   gap: 5px;
 }
 .color {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -49,4 +49,19 @@
 .item-products .price {
   font-size: 20px;
   font-weight: 600;
+}
+@media (min-width: 1024px) {
+  .color {
+  width: 40px;
+  height: 40px;
+}
+.item-products .name {
+  font-size: 20px;
+}
+.item-products .short-description {
+  font-size: 14px;
+}
+.item-products .price {
+  font-size: 24px;
+}
 }

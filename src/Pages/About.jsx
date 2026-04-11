@@ -30,6 +30,26 @@ const About = () => {
         siguranță.
       </p>
       <p>Nu doar vindem biciclete, ci construim o cultură a mișcării.</p>
+      <p>
+        La Velaro, fiecare bicicletă este asamblată cu atenție de meșteri
+        experimentați, urmând standarde stricte de calitate și siguranță.
+        Înainte de livrare, fiecare model trece printr-un proces riguros de
+        verificare tehnică – de la reglajul transmisiei și frânelor, până la
+        centrarea roților și presiunea anvelopelor – pentru ca tu să primești o
+        bicicletă gata de pedalat imediat.
+      </p>
+      <p>
+        Oferim în plus service gratuit la prima întreținere, pentru a ne asigura
+        că experiența ta cu Velaro rămâne excelentă pe termen lung. Suntem
+        alături de tine nu doar în momentul achiziției, ci în fiecare kilometru
+        parcurs.
+      </p>
+      <p>
+        Prin fiecare produs și inițiativă, contribuim la o Românie mai verde –
+        de la parteneriate cu asociații locale pentru infrastructură ciclabila,
+        la programe de reciclare a componentelor vechi. Pentru noi, o lume mai
+        bună începe cu o pedalare curată.
+      </p>
     </div>
   );
 };

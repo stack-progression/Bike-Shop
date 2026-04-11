@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Search.css";
 import { useCategories } from "../../Hooks/useCategories";
 import { Link, useLocation } from "react-router-dom";
@@ -19,6 +19,18 @@ const Search = () => {
     setOpenSearch(false);
   }, [location.pathname, setOpenSearch]);
   const { data: category, isPending: categoryLoading } = useCategories();
+
+  const [link, setLink] = useState("");
+
+  const searchHandler = () => {
+    if (search === "") {
+      alert("Completati campul de cautare");
+      setLink("");
+    } else if (search !== "") {
+      setLink("shop");
+    }
+  };
+
   if (categoryLoading) return "Loading...";
 
   // console.log(search);
@@ -40,8 +52,9 @@ const Search = () => {
               placeholder="Cauta"
             />
             <Link
-              to={"shop"}
+              to={link}
               onClick={() => {
+                searchHandler();
                 setSearchResults(search);
                 setOpenSearch(false);
                 scrollTo(0, 0);

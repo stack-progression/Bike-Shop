@@ -49,7 +49,6 @@ body::-webkit-scrollbar {
   position: fixed;
   width: 100vw;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,10 +61,11 @@ body::-webkit-scrollbar {
   background-image: url(https://bike-images.andrew-code.com/Bike%20Image/logo/f0d600aa-7f19-4aed-bf2b-d9c35d16cbc2.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 200px;
 }
-@media (max-width: 750px) {
+@media (min-width: 750px) {
   .loading-page {
-    background-size: contain;
+    background-size: 500px;
   }
 }
 @keyframes Enter {

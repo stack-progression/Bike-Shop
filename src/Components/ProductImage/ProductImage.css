@@ -123,8 +123,8 @@
   margin: 5px 0;
 }
 .details-container .colors button {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   border: none;
   border-radius: 50%;
 }
@@ -147,7 +147,7 @@
 }
 .stars i {
   font-size: 16px;
-  color: #ffea00;
+  color: #ffd700;
 }
 .details-short-details {
   font-weight: 600;
@@ -203,8 +203,8 @@
     margin: 10px 0;
   }
   .details-container .colors button {
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
   }
   .rating {
     gap: 8px;
@@ -337,6 +337,13 @@
     font-size: 20px;
   } */
   .details-container .colors {
+    gap: 8px;
+  }
+  .details-container .colors button {
+    height: 40px;
+    width: 40px;
+  }
+  .rating {
     gap: 8px;
   }
   /* .rating p {
