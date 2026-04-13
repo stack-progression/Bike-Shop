@@ -16,7 +16,7 @@ const NewModelItem = (item) => {
           <p>{item.description}</p>
         </div>
         <Link onClick={scrollToTop} to={`/product/${item.id}`}>
-          VIZUALIZEAZA
+          VIZUALIZEAZĂ
         </Link>
       </div>
     </div>

@@ -72,7 +72,7 @@ const LoginSignup = () => {
   if (signUpLogin) {
     return (
       <div className="login-signup">
-        <h1>Inregistreaza-te</h1>
+        <h1>Înregistrează-te</h1>
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -114,7 +114,7 @@ const LoginSignup = () => {
           <input
             value={confirm}
             onChange={(e) => setConfirm(e.target.value)}
-            placeholder="Confirma Parola"
+            placeholder="Confirmă Parola"
             type="password"
             id="confirm"
             name="confirm"
@@ -125,19 +125,19 @@ const LoginSignup = () => {
               handleSubmitIn();
             }}
           >
-            Inregistreaza-te
+            Înregistreăza-te
           </button>
         </form>
         <p>
-          Sunteti deja inregistrat?{" "}
-          <span onClick={() => setSignUpLogin(!signUpLogin)}>Logati-va</span>
+          Sunteți deja înregistrat?{" "}
+          <span onClick={() => setSignUpLogin(!signUpLogin)}>Logați-vă</span>
         </p>
       </div>
     );
   } else {
     return (
       <div className="login-signup">
-        <h1>Logheaza-te</h1>
+        <h1>Loghează-te</h1>
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -163,9 +163,9 @@ const LoginSignup = () => {
           <button type="submit">Loghează-te</button>
         </form>
         <p>
-          Nu sunteti inregistrat?{" "}
+          Nu sunteți înregistrat?{" "}
           <span onClick={() => setSignUpLogin(!signUpLogin)}>
-            Inregistreaza-te
+            Înregistrează-te
           </span>
         </p>
       </div>

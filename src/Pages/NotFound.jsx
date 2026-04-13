@@ -19,7 +19,7 @@ const NotFound = () => {
         style={{ width: "280px", height: "40px", fontSize: "24px", cursor: "pointer", backgroundColor: "#000000", color: "#fff", border: "none", borderRadius: "4px" }}
         onClick={() => navigate("/")}
       >
-        Inapoi
+        Înapoi
       </button>
     </div>
   );

@@ -56,7 +56,7 @@ const ProductDetailsSpecifications = (p) => {
               setOpen((e) => ({ ...e, button2: !e.button2 }));
             }}
           >
-            Specificatii tehnice
+            Specificații tehnice
           </h2>
           <button
             onClick={() => {

@@ -72,10 +72,10 @@ const Search = () => {
               setOpenSearch(false);
             }}
           >
-            Inchide
+            Închide
           </button>
         </div>
-        <p>Explorati dupa categorie</p>
+        <p>Explorați după categorie</p>
         <div className="search-category-container">
           {category.slice(0, 4).map((item) => {
             return (

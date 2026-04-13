@@ -57,7 +57,7 @@ const Brands = () => {
             src="https://bike-images.andrew-code.com/Bike%20Image/icons/up-arrow.png"
             alt="up-arrow"
           />
-          <p>Vezi mai putin</p>
+          <p>Vezi mai puțin</p>
         </button>
       )}
       <hr />

@@ -29,7 +29,7 @@ const Cart = () => {
     return (
       <div className="cart">
         <div className="cart-header">
-          <p>Cos de cumparaturi</p>
+          <p>Coș de cumpărături</p>
           <p>({cart.length}) Produse</p>
         </div>
         <div className="cart-list-items">
@@ -57,18 +57,18 @@ const Cart = () => {
           <p>
             Total: {totalAmount.toFixed(2)} {cart[0]?.currency}
           </p>
-          <p>Cantitatea totala: {totalQuantity}</p>
+          <p>Cantitatea totală: {totalQuantity}</p>
         </div>
         <div className="cart-footer">
           <div className="cart-footer-payment">
-            <p>Acceptam</p>
+            <p>Acceptăm</p>
             <div className="cart-footer-payment-cards">
               {cards?.map((i) => {
                 return <img loading="lazy" src={i.image} alt={i.name} />;
               })}
             </div>
           </div>
-          <button>Comanda</button>
+          <button>Comandă</button>
         </div>
       </div>
     );
@@ -77,8 +77,8 @@ const Cart = () => {
       <div className="cart cart-empty">
         <div className="cart-header">
           <div className="cart-header-container">
-            <p>Cos de cumparaturi</p>
-            <p>Cosul dumneavoastra este gol</p>
+            <p>Coș de cumpărături</p>
+            <p>Cosul dumneavoastră este gol</p>
             <button onClick={() => navigate("/shop")}>Spre Magazin</button>
           </div>
           <p>({cart.length}) Produse</p>

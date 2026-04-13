@@ -51,7 +51,7 @@ const ProductDetails = (p) => {
               addToCart(item);
             }}
           >
-            Cumpara
+            Cumpără
           </button>
           <div ref={buyRef} className="check">
             <i class="fa-solid fa-check"></i>
